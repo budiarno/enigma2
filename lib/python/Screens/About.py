@@ -8,6 +8,7 @@ from Components.NimManager import nimmanager
 from Components.About import about
 from Components.ScrollLabel import ScrollLabel
 from Components.Console import Console
+from Components.SystemInfo import SystemInfo
 from enigma import eTimer, getEnigmaVersionString
 from boxbranding import getBoxType, getMachineBuild, getMachineBrand, getMachineName, getImageVersion, getImageBuild, getDriverDate
 
@@ -18,6 +19,8 @@ from Tools.StbHardware import getFPVersion
 
 from os import path
 from re import search
+
+import time
 
 def parse_ipv4(ip):
 	ret = ""
@@ -51,9 +54,18 @@ def parseLines(filename):
 		print "[ERROR] failed to open file %s" % filename
 	return ret
 
+def MyDateConverter(StringDate):
+	## StringDate must be a string "YYYY-MM-DD"
+	try:
+		StringDate = StringDate.replace("-"," ")
+		StringDate = time.strftime(_("%Y-%m-%d"), time.strptime(StringDate, "%Y %m %d"))
+		return StringDate
+	except:
+		return _("unknown")
+
 def getAboutText():
 	AboutText = ""
-	AboutText += _("Model:\t%s %s\n") % (getMachineBrand(), getMachineName())
+	AboutText += _("Model:\t\t%s %s\n") % (getMachineBrand(), getMachineName())
 	AboutText += _("OEM Model:\t\t%s\n") % getMachineBuild()
 
 	bootloader = ""
@@ -64,14 +76,14 @@ def getAboutText():
 		AboutText += _("Bootloader:\t\t%s\n") % (bootloader)
 
 	if path.exists('/proc/stb/info/chipset'):
-		AboutText += _("Chipset:\t%s") % about.getChipSetString() + "\n"
+		AboutText += _("Chipset:\t\t%s") % about.getChipSetString() + "\n"
 
 	cpuMHz = ""
 	if getMachineBuild() in ('vusolo4k','vuultimo4k','vuzero4k'):
 		cpuMHz = "   (1,5 GHz)"
 	elif getMachineBuild() in ('formuler1tc','formuler1', 'triplex', 'tiviaraplus'):
 		cpuMHz = "   (1,3 GHz)"
-	elif getMachineBuild() in ('u5','u5pvr','h9'):
+	elif getMachineBuild() in ('u51','u5','u53','u52','u5pvr','h9'):
 		cpuMHz = "   (1,6 GHz)"
 	elif getMachineBuild() in ('vuuno4kse','vuuno4k','dm900','dm920', 'gb7252', 'dags7252','xc7439','8100s'):
 		cpuMHz = "   (1,7 GHz)"
@@ -99,8 +111,8 @@ def getAboutText():
 			except:
 				pass
 
-	AboutText += _("CPU:\t%s") % about.getCPUString() + cpuMHz + "\n"
-	AboutText += _("Cores:\t%s") % about.getCpuCoresString() + "\n"
+	AboutText += _("CPU:\t\t%s") % about.getCPUString() + cpuMHz + "\n"
+	AboutText += _("Cores:\t\t%s") % about.getCpuCoresString() + "\n"
 
 	imagestarted = ""
 	bootname = ''
@@ -115,33 +127,33 @@ def getAboutText():
 		image = f.read(1) 
 		f.close()
 		if bootname: bootname = "   (%s)" %bootname 
-		AboutText += _("Selected Image:\t%s") % "STARTUP_" + image + bootname + "\n"
+		AboutText += _("Selected Image:\t\t%s") % "STARTUP_" + image + bootname + "\n"
 	elif path.exists('/boot/cmdline.txt'):
 		f = open('/boot/cmdline.txt', 'r')
 		f.seek(38)
 		image = f.read(1) 
 		f.close()
 		if bootname: bootname = "   (%s)" %bootname 
-		AboutText += _("Selected Image:\t%s") % "STARTUP_" + image + bootname + "\n"
+		AboutText += _("Selected Image:\t\t%s") % "STARTUP_" + image + bootname + "\n"
 
-	AboutText += _("Version:\t%s") % getImageVersion() + "\n"
-	AboutText += _("Build:\t%s") % getImageBuild() + "\n"
-	AboutText += _("Kernel:\t%s") % about.getKernelVersionString() + "\n"
+	AboutText += _("Version:\t\t%s") % getImageVersion() + "\n"
+	AboutText += _("Build:\t\t%s") % getImageBuild() + "\n"
+	AboutText += _("Kernel:\t\t%s") % about.getKernelVersionString() + "\n"
 
 	string = getDriverDate()
 	year = string[0:4]
 	month = string[4:6]
 	day = string[6:8]
 	driversdate = '-'.join((year, month, day))
-	AboutText += _("Drivers:\t%s") % driversdate + "\n"
+	AboutText += _("Drivers:\t\t%s") % MyDateConverter(driversdate) + "\n"
 
-	AboutText += _("GStreamer:\t%s") % about.getGStreamerVersionString() + "\n"
-	AboutText += _("Python:\t%s") % about.getPythonVersionString() + "\n"
+	AboutText += _("GStreamer:\t\t%s") % about.getGStreamerVersionString() + "\n"
+	AboutText += _("Python:\t\t%s") % about.getPythonVersionString() + "\n"
 
-	if getMachineBuild() not in ('h9','vuzero4k','sf5008','et13000','et1x000','hd51','hd52','vusolo4k','vuuno4k','vuuno4kse','vuultimo4k','sf4008','dm820','dm7080','dm900','dm920', 'gb7252', 'dags7252', 'vs1500','h7','xc7439','8100s','u5','u5pvr'):
-		AboutText += _("Installed:\t%s") % about.getFlashDateString() + "\n"
+	if getMachineBuild() not in ('h9','vuzero4k','sf5008','et13000','et1x000','hd51','hd52','vusolo4k','vuuno4k','vuuno4kse','vuultimo4k','sf4008','dm820','dm7080','dm900','dm920', 'gb7252', 'dags7252', 'vs1500','h7','xc7439','8100s','u5','u5pvr','u52','u53','u51'):
+		AboutText += _("Installed:\t\t%s") % about.getFlashDateString() + "\n"
 
-	AboutText += _("Last update:\t%s") % getEnigmaVersionString() + "\n"
+	AboutText += _("Last update:\t\t%s") % MyDateConverter(getEnigmaVersionString()) + "\n"
 
 	fp_version = getFPVersion()
 	if fp_version is None:
@@ -172,6 +184,10 @@ def getAboutText():
 		f = open('/proc/stb/fp/temp_sensor_avs', 'r')
 		tempinfo = f.read()
 		f.close()
+	elif path.exists('/proc/stb/power/avs'):
+		f = open('/proc/stb/power/avs', 'r')
+		tempinfo = f.read()
+		f.close()
 	elif path.exists('/sys/devices/virtual/thermal/thermal_zone0/temp'):
 		try:
 			f = open('/sys/devices/virtual/thermal/thermal_zone0/temp', 'r')
@@ -194,6 +210,7 @@ class About(Screen):
 		self.skinName = ["AboutOE","About"]
 		self.populate()
 
+		self["key_red"] = Button(_("Exit"))
 		self["key_green"] = Button(_("Translations"))
 		self["actions"] = ActionMap(["SetupActions", "ColorActions", "TimerEditActions"],
 			{
@@ -202,7 +219,9 @@ class About(Screen):
 				"log": self.showAboutReleaseNotes,
 				"up": self.pageUp,
 				"down": self.pageDown,
+				"red": self.close,
 				"green": self.showTranslationInfo,
+				"0": self.showID,
 			})
 
 
@@ -332,6 +351,17 @@ class About(Screen):
 
 	def populate_vti(self):
 		pass
+
+	def showID(self):
+		if SystemInfo["HaveID"]:
+			try:
+				f = open("/etc/.id")
+				id = f.read()[:-1].split('=')
+				f.close()
+				from Screens.MessageBox import MessageBox
+				self.session.open(MessageBox,id[1], type = MessageBox.TYPE_INFO)
+			except:
+				pass
 
 	def showTranslationInfo(self):
 		self.session.open(TranslationInfo)

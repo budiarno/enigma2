@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openATV / enigma2\n"
-"POT-Creation-Date: 2018-03-21 22:50+0300\n"
+"POT-Creation-Date: 2018-05-04 02:55+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME\n"
 "Language-Team: TEAM <EMAIL@ADDRESS>\n"
@@ -348,41 +348,10 @@ msgstr ""
 msgid "* Only available if more than one interface is active."
 msgstr ""
 
-msgid ""
-"*** boxmode=1 (Standard) ***\n"
-"\n"
-"+++ Features +++\n"
-"3840x2160p60 10-bit HEVC, 3840x2160p60 8-bit VP9, 1920x1080p60 8-bit AVC,\n"
-"MAIN only (no PIP), Limited display usages, UHD only (no SD),\n"
-"No multi-PIP, No transcoding\n"
-"\n"
-"--- Restrictions ---\n"
-"Decoder 0: 3840x2160p60 10-bit HEVC, 3840x2160p60 8-bit VP9, 1920x1080p60 8-bit AVC\n"
-"OSD Grafic 0: 1080p60 32 bit ARGB\n"
-"Display 0 Encode Restrictions: 3840x2160p60 12-bit 4:2:0 (HDMI),\n"
-"3840x2160p60 12-bit 4:2:2 (HDMI), 3840x2160p60 8-bit 4:4:4 (HDMI),\n"
-"1920x1080p60 (component), Only one display format at a time\n"
-"\n"
-"If you want 1080p60 component, HDMI also needs to be 1080p60."
+msgid "*** boxmode=1 (Standard) ***\n\n+++ Features +++\n3840x2160p60 10-bit HEVC, 3840x2160p60 8-bit VP9, 1920x1080p60 8-bit AVC,\nMAIN only (no PIP), Limited display usages, UHD only (no SD),\nNo multi-PIP, No transcoding\n\n--- Restrictions ---\nDecoder 0: 3840x2160p60 10-bit HEVC, 3840x2160p60 8-bit VP9, 1920x1080p60 8-bit AVC\nOSD Grafic 0: 1080p60 32 bit ARGB\nDisplay 0 Encode Restrictions: 3840x2160p60 12-bit 4:2:0 (HDMI),\n3840x2160p60 12-bit 4:2:2 (HDMI), 3840x2160p60 8-bit 4:4:4 (HDMI),\n1920x1080p60 (component), Only one display format at a time\n\nIf you want 1080p60 component, HDMI also needs to be 1080p60."
 msgstr ""
 
-msgid ""
-"*** boxmode=12 (Experimental) ***\n"
-"\n"
-"+++ Features +++\n"
-"3840x2160p50 10-bit decode for MAIN, 1080p25/50i PIP support, HDMI input (if available),\n"
-" UHD display only, No SD display, No transcoding\n"
-"\n"
-"--- Restrictions ---\n"
-"Decoder 0: 3840x2160p50 10-bit HEVC, 3840x2160p50 8-bit VP9,\n"
-"1920x1080p50 8-bit AVC/MPEG\n"
-"Decoder 1: 1920x1080p25/50i 10-bit HEVC, 1920x1080p25/50i 8-bit VP9/AVC/MPEG2,\n"
-"HDMI In (if available), 3840x2160p50\n"
-"OSD Graphic 0 (UHD): 1080p50 32-bit ARGB\n"
-"Window 0 (MAIN/UHD): Limited display capabilities, 1080i50 10-bit de-interlacing\n"
-"Multi-PIP mode (3x): Enigma2 supported no multi-PIP\n"
-"Window 1 (PIP/UHD) (Enigma2 PIP Mode): Up to 1/2 x 1/2 screen display, 576i50 de-interlacing\n"
-"Display 0 (UHD) Encode Restrictions: 3840x2160p50"
+msgid "*** boxmode=12 (Experimental) ***\n\n+++ Features +++\n3840x2160p50 10-bit decode for MAIN, 1080p25/50i PIP support, HDMI input (if available),\n UHD display only, No SD display, No transcoding\n\n--- Restrictions ---\nDecoder 0: 3840x2160p50 10-bit HEVC, 3840x2160p50 8-bit VP9,\n1920x1080p50 8-bit AVC/MPEG\nDecoder 1: 1920x1080p25/50i 10-bit HEVC, 1920x1080p25/50i 8-bit VP9/AVC/MPEG2,\nHDMI In (if available), 3840x2160p50\nOSD Graphic 0 (UHD): 1080p50 32-bit ARGB\nWindow 0 (MAIN/UHD): Limited display capabilities, 1080i50 10-bit de-interlacing\nMulti-PIP mode (3x): Enigma2 supported no multi-PIP\nWindow 1 (PIP/UHD) (Enigma2 PIP Mode): Up to 1/2 x 1/2 screen display, 576i50 de-interlacing\nDisplay 0 (UHD) Encode Restrictions: 3840x2160p50"
 msgstr ""
 
 msgid "---Weather---"
@@ -1330,6 +1299,12 @@ msgstr ""
 msgid "Allocate unused memory index"
 msgstr ""
 
+msgid "Allow 10bit"
+msgstr ""
+
+msgid "Allow 12bit"
+msgstr ""
+
 msgid "Allow quit movieplayer with exit"
 msgstr ""
 
@@ -1340,6 +1315,9 @@ msgid "Allow subtitles for hearing impaired"
 msgstr ""
 
 msgid "Allow unstable (untested) updates"
+msgstr ""
+
+msgid "Allow unsupported modes"
 msgstr ""
 
 msgid "Allows the %s %s to read the stored EPG data regularly."
@@ -1723,6 +1701,9 @@ msgstr ""
 msgid "Auto Language Selection"
 msgstr ""
 
+msgid "Auto Modes Selected."
+msgstr ""
+
 msgid "Auto scart switching"
 msgstr ""
 
@@ -2014,6 +1995,9 @@ msgstr ""
 msgid "Big PiP"
 msgstr ""
 
+msgid "Bitrate"
+msgstr ""
+
 msgid "Bitrate:"
 msgstr ""
 
@@ -2074,7 +2058,7 @@ msgstr ""
 msgid "Boot-up action"
 msgstr ""
 
-msgid "Bootloader:\t\t%s\n"
+msgid "Bootloader:\t\t\t%s\n"
 msgstr ""
 
 msgid "Bootloader update required!"
@@ -2131,7 +2115,7 @@ msgstr ""
 msgid "Build: %s"
 msgstr ""
 
-msgid "Build:\t%s"
+msgid "Build:\t\t%s"
 msgstr ""
 
 msgid "Bulgarian"
@@ -2596,7 +2580,7 @@ msgstr ""
 msgid "Chipset: BCM%s"
 msgstr ""
 
-msgid "Chipset:\t%s"
+msgid "Chipset:\t\t%s"
 msgstr ""
 
 msgid "Choice Box"
@@ -2876,6 +2860,9 @@ msgid "Complex (allows mixing audio tracks and aspects)"
 msgstr ""
 
 msgid "Composition of the recording filenames"
+msgstr ""
+
+msgid "Config file name: default (ok to change)"
 msgstr ""
 
 msgid "config menu"
@@ -3376,7 +3363,7 @@ msgstr ""
 msgid "Cores: %s"
 msgstr ""
 
-msgid "Cores:\t%s"
+msgid "Cores:\t\t%s"
 msgstr ""
 
 msgid "Could not connect to server"
@@ -3415,7 +3402,7 @@ msgstr ""
 msgid "CPU: %s"
 msgstr ""
 
-msgid "CPU:\t%s"
+msgid "CPU:\t\t%s"
 msgstr ""
 
 msgid "Crash at skin error for debug reasons ?"
@@ -3623,6 +3610,9 @@ msgid "Default 'Timer type' *"
 msgstr ""
 
 msgid "Default files/folders to backup"
+msgstr ""
+
+msgid "Default Modes Selected."
 msgstr ""
 
 msgid "Default movie location"
@@ -4291,7 +4281,7 @@ msgstr ""
 msgid "drivers"
 msgstr ""
 
-msgid "Drivers:\t%s"
+msgid "Drivers:\t\t%s"
 msgstr ""
 
 msgid "DTS"
@@ -5340,7 +5330,13 @@ msgstr ""
 msgid "force AC3plus"
 msgstr ""
 
+msgid "force enabled"
+msgstr ""
+
 msgid "Force de-interlace"
+msgstr ""
+
+msgid "force disabled"
 msgstr ""
 
 msgid "Force Legacy Signal Stats"
@@ -5380,6 +5376,9 @@ msgid "FP Upgrade"
 msgstr ""
 
 msgid "FP upgrade required"
+msgstr ""
+
+msgid "Frame rate"
 msgstr ""
 
 msgid "Frame size in full view"
@@ -5685,7 +5684,7 @@ msgstr ""
 msgid "Grow from left"
 msgstr ""
 
-msgid "GStreamer:\t%s"
+msgid "GStreamer:\t\t%s"
 msgstr ""
 
 msgid "Guard interval"
@@ -5771,6 +5770,15 @@ msgstr ""
 msgid "HDMIin"
 msgstr ""
 
+msgid "HDMI Recording"
+msgstr ""
+
+msgid "HDMI-IN Recording settings"
+msgstr ""
+
+msgid "HDR10 Support"
+msgstr ""
+
 msgid "Hebrew"
 msgstr ""
 
@@ -5802,6 +5810,9 @@ msgid "Here you can select which files should be excluded from the backup."
 msgstr ""
 
 msgid "Here you can select which files should be updated with a online update"
+msgstr ""
+
+msgid "Here you can set what is called when pressing the 'Info' key."
 msgstr ""
 
 msgid "Here you can specify additional files that should be added to the backup file."
@@ -5862,6 +5873,9 @@ msgid "History next"
 msgstr ""
 
 msgid "History zap..."
+msgstr ""
+
+msgid "HLG Support"
 msgstr ""
 
 msgid "Hold screen"
@@ -5951,7 +5965,7 @@ msgstr ""
 msgid "If enabled, AIT data is included in recordings."
 msgstr ""
 
-msgid "If enabled, will checks for the time after the start of the receiver is within the time window and optionally switched to standby. If disabled, must additional be available a signal for the successful wakeup detection. (some receiver send a false or none signal)"
+msgid "If enabled, using a time window to detect a wakeup from deep standby by a timer. Default setting ist disabled and used a special signal from the receiver. But some devices set a wrong or none signal and the wakeup detection can fails."
 msgstr ""
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
@@ -6020,14 +6034,13 @@ msgstr ""
 msgid "If the text is too long to be displayed on the front panel, it will be repeated (number of times):"
 msgstr ""
 
+msgid "If you have activated HDMI-CEC, you can specify here whether a 'zap and record' timer also turns on the TV."
+msgstr ""
+
 msgid "If you see this, something is wrong with\nyour scart connection. Press OK to return."
 msgstr ""
 
-msgid ""
-"If your TV has a brightness or contrast enhancement, disable it. If there is something called \"dynamic\", set it to standard. Adjust the backlight level to a value suiting your taste. Turn down contrast on your TV as much as possible.\n"
-"Then turn the brightness setting as low as possible, but make sure that the two lowermost shades of gray stay distinguishable.\n"
-"Do not care about the bright shades now. They will be set up in the next step.\n"
-"If you are happy with the result, press OK."
+msgid "If your TV has a brightness or contrast enhancement, disable it. If there is something called \"dynamic\", set it to standard. Adjust the backlight level to a value suiting your taste. Turn down contrast on your TV as much as possible.\nThen turn the brightness setting as low as possible, but make sure that the two lowermost shades of gray stay distinguishable.\nDo not care about the bright shades now. They will be set up in the next step.\nIf you are happy with the result, press OK."
 msgstr ""
 
 msgid "Ignore DVB-C namespace sub network"
@@ -6093,13 +6106,16 @@ msgstr ""
 msgid "In expert mode, configure which tuners will be preferred for recordings, when more than one tuner is available."
 msgstr ""
 
-msgid "In the Standby blinking Clock on the LCD Display"
+msgid "In most cases this should be set to No. Only enable if you have a very specific need."
 msgstr ""
 
 msgid "In order to record a timer, a tuner was freed successfully:\n\n"
 msgstr ""
 
 msgid "In progress"
+msgstr ""
+
+msgid "In the Standby blinking Clock on the LCD Display"
 msgstr ""
 
 msgid "Inactive"
@@ -6267,6 +6283,9 @@ msgstr ""
 msgid "Input channel name."
 msgstr ""
 
+msgid "Input config file name:"
+msgstr ""
+
 msgid "Input devices"
 msgstr ""
 
@@ -6327,7 +6346,7 @@ msgstr ""
 msgid "Installation finished."
 msgstr ""
 
-msgid "Installed:\t%s"
+msgid "Installed:\t\t%s"
 msgstr ""
 
 msgid "Installing"
@@ -6364,6 +6383,9 @@ msgid "Interface"
 msgstr ""
 
 msgid "Interface: "
+msgstr ""
+
+msgid "Interlaced"
 msgstr ""
 
 msgid "Intermediate"
@@ -6546,7 +6568,7 @@ msgstr ""
 msgid "Kernel: %s"
 msgstr ""
 
-msgid "Kernel:\t%s"
+msgid "Kernel:\t\t%s"
 msgstr ""
 
 msgid "Keyboard"
@@ -6567,7 +6589,13 @@ msgstr ""
 msgid "Kleiner Test"
 msgstr ""
 
+msgid "Kodi"
+msgstr ""
+
 msgid "Kodi installed:"
+msgstr ""
+
+msgid "Kodi Launcher"
 msgstr ""
 
 msgid "Kodi MediaCenter"
@@ -6606,7 +6634,7 @@ msgstr ""
 msgid "Last speed"
 msgstr ""
 
-msgid "Last update:\t%s"
+msgid "Last update:\t\t%s"
 msgstr ""
 
 msgid "Last used share: "
@@ -7010,6 +7038,9 @@ msgstr ""
 msgid "Maximum no of days:"
 msgstr ""
 
+msgid "Maximum minutes to jump %d !"
+msgstr ""
+
 msgid "Maximum number of days in EPG"
 msgstr ""
 
@@ -7163,7 +7194,7 @@ msgstr ""
 msgid "Model: %s %s\n"
 msgstr ""
 
-msgid "Model:\t%s %s\n"
+msgid "Model:\t\t%s %s\n"
 msgstr ""
 
 msgid "Modulation"
@@ -9225,7 +9256,7 @@ msgstr ""
 msgid "Process"
 msgstr ""
 
-msgid "Processor temperature:\t%s"
+msgid "Processor temperature:\t\t%s"
 msgstr ""
 
 msgid "Profile"
@@ -9387,7 +9418,7 @@ msgstr ""
 msgid "Python frontend for /tmp/mmi.socket"
 msgstr ""
 
-msgid "Python:\t%s"
+msgid "Python:\t\t%s"
 msgstr ""
 
 msgid "Quad PiP Channel Selection"
@@ -9702,6 +9733,9 @@ msgid "Release Notes"
 msgstr ""
 
 msgid "reliable"
+msgstr ""
+
+msgid "reliable, retune"
 msgstr ""
 
 msgid "religion"
@@ -10735,7 +10769,7 @@ msgstr ""
 msgid "Select Your Skin"
 msgstr ""
 
-msgid "Selected Image:\t%s"
+msgid "Selected Image:\t\t%s"
 msgstr ""
 
 msgid ""
@@ -10843,9 +10877,7 @@ msgstr ""
 msgid "Service Information"
 msgstr ""
 
-msgid ""
-"Service invalid!\n"
-"(Timeout reading PMT)"
+msgid "Service invalid!\n(Timeout reading PMT)"
 msgstr ""
 
 msgid "Service Name"
@@ -10857,9 +10889,7 @@ msgstr ""
 msgid "Service name font size"
 msgstr ""
 
-msgid ""
-"Service not found!\n"
-"(SID not found in PAT)"
+msgid "Service not found!\n(SID not found in PAT)"
 msgstr ""
 
 msgid "Service number font size"
@@ -10889,9 +10919,7 @@ msgstr ""
 msgid "Service Title mode"
 msgstr ""
 
-msgid ""
-"Service unavailable!\n"
-"Check tuner configuration!"
+msgid "Service unavailable!\nCheck tuner configuration!"
 msgstr ""
 
 msgid "Service width"
@@ -10910,6 +10938,9 @@ msgid "Services"
 msgstr ""
 
 msgid "Services may be grouped in bouquets. When enabled, you can use more than one bouquet."
+msgstr ""
+
+msgid "Set action for 'Info' key"
 msgstr ""
 
 msgid "set as startup service"
@@ -11525,6 +11556,9 @@ msgid "Show HDMI Output Resulution"
 msgstr ""
 
 msgid "Show HDMI-Output Res"
+msgstr ""
+
+msgid "Show HDMIRecord setup...
 msgstr ""
 
 msgid "Show help"
@@ -12541,6 +12575,9 @@ msgstr ""
 msgid "StreamingClientsInfo"
 msgstr ""
 
+msgid "Stretch full"
+msgstr ""
+
 msgid "Stretch linear"
 msgstr ""
 
@@ -12937,6 +12974,9 @@ msgstr ""
 msgid "The %s %s stores the EPG data every (hours)."
 msgstr ""
 
+msgid "The aspect ratio of the recording."
+msgstr ""
+
 msgid "The AutoTimer plugin is not installed!\nPlease install it."
 msgstr ""
 
@@ -12944,6 +12984,9 @@ msgid "The available disk space for timeshift is less than specified in the sett
 msgstr ""
 
 msgid "The backup failed. Please choose a different backup location."
+msgstr ""
+
+msgid "The bitrate of the video encoder. Larger value improves quality and increases file size."
 msgstr ""
 
 msgid "The buffer time for timeshift exceeds the specified limit in the settings.\nWhat do you want to do ?"
@@ -12988,6 +13031,12 @@ msgid "The following device was found:\n\n%s\n\nDo you want to write the USB fla
 msgstr ""
 
 msgid "The following files were found..."
+msgstr ""
+
+msgid "The frame rate of the recording. Ideally, this will match the frame rate of the source or be an integer multiple. If in doubt, set to 60, which should work with most sources."
+msgstr ""
+
+msgid "The height of the picture. The input will be scaled to match this value."
 msgstr ""
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
@@ -13081,6 +13130,9 @@ msgid "The user interface of your %s %s is restarting\ndue to an error in mytest
 msgstr ""
 
 msgid "The VideoMode plugin is not installed!\nPlease install it."
+msgstr ""
+
+msgid "The width of the picture. The input will be scaled to match this value."
 msgstr ""
 
 msgid "The wireless LAN plugin is not installed!\nPlease install it and choose what you want to do next."
@@ -13209,6 +13261,18 @@ msgstr ""
 msgid "This option allows you can config the Colorspace from Auto to RGB"
 msgstr ""
 
+msgid "This option allows you can enable or disable the 10 Bit Color Mode"
+msgstr ""
+
+msgid "This option allows you can enable or disable the 12 Bit Color Mode"
+msgstr ""
+
+msgid "This option allows you can force the HDR10 Modes for UHD"
+msgstr ""
+
+msgid "This option allows you can force the HLG Modes for UHD"
+msgstr ""
+
 msgid "This option allows you choose how to display elapsed time  as + or -"
 msgstr ""
 
@@ -13306,6 +13370,9 @@ msgid "This option allows you to show menu number quick links."
 msgstr ""
 
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
+msgstr ""
+
+msgid "This option allows you to use all HDMI Modes"
 msgstr ""
 
 msgid "This option allows you to view the old and new settings side by side."
@@ -13738,6 +13805,9 @@ msgstr ""
 msgid "traditional (fast)"
 msgstr ""
 
+msgid "traditional (fast), retune"
+msgstr ""
+
 msgid "Traditional Chinese"
 msgstr ""
 
@@ -13919,6 +13989,9 @@ msgid "Turn on HDMI-IN Full screen mode"
 msgstr ""
 
 msgid "Turn on HDMI-IN PiP mode"
+msgstr ""
+
+msgid "Turn on the TV from standby with 'zap and record' timer"
 msgstr ""
 
 msgid "Turning step size"
@@ -14187,6 +14260,9 @@ msgstr ""
 msgid "Use as HDD"
 msgstr ""
 
+msgid "Use automatic mode detection.\n This option reads all supported modes from your TV.\n Please disable it only if you want to customize the preferred configuration."
+msgstr ""
+
 msgid "use best / controlled by HDMI"
 msgstr ""
 
@@ -14430,7 +14506,7 @@ msgstr ""
 msgid "Version: %s"
 msgstr ""
 
-msgid "Version:\t%s"
+msgid "Version:\t\t%s"
 msgstr ""
 
 msgid "vertical"
@@ -15554,7 +15630,7 @@ msgstr ""
 msgid "\n Kodi not present. Proceed with install?"
 msgstr ""
 
-msgid "\n%d.%d.%d, %2d:%02d  -  %s"
+msgid "\n%Y/%m/%d  %H:%M - "
 msgstr ""
 
 msgid "\n<This tuner is configured automatically>"

@@ -270,6 +270,8 @@ def getButtonSetupFunctions():
 		ButtonSetupFunctions.append((_("Kodi MediaCenter"), "Kodi/", "Plugins"))
 	if os.path.isfile("/usr/lib/enigma2/python/Plugins/SystemPlugins/BluetoothSetup/plugin.pyo"):
 		ButtonSetupFunctions.append((_("Bluetooth Setup"), "Bluetooth/", "Plugins"))
+	if os.path.isfile("/usr/lib/enigma2/python/Plugins/Extensions/Chromium/plugin.pyo"):
+		ButtonSetupFunctions.append((_("Youtube TV"), "YoutubeTV/", "Plugins"))
 	return ButtonSetupFunctions
 
 class ButtonSetup(Screen):
@@ -318,17 +320,16 @@ class ButtonSetup(Screen):
 	def ButtonSetupGlobal(self, key):
 		if self.longkeyPressed:
 			self.longkeyPressed = False
-		else:
-			index = 0
-			for x in self.list[:config.misc.ButtonSetup.additional_keys.value and len(self.ButtonSetupKeys) or 10]:
-				if key == x[0][1]:
-					self["list"].moveToIndex(index)
-					if key.endswith("_long"):
-						self.longkeyPressed = True
-					break
-				index += 1
-			self.getFunctions()
-			self.session.open(ButtonSetupSelect, self["list"].l.getCurrentSelection())
+		index = 0
+		for x in self.list[:config.misc.ButtonSetup.additional_keys.value and len(self.ButtonSetupKeys) or 10]:
+			if key == x[0][1]:
+				self["list"].moveToIndex(index)
+				if key.endswith("_long"):
+					self.longkeyPressed = True
+				break
+			index += 1
+		self.getFunctions()
+		self.session.open(ButtonSetupSelect, self["list"].l.getCurrentSelection())
 
 	def getFunctions(self):
 		key = self["list"].l.getCurrentSelection()[0][1]
@@ -660,6 +661,10 @@ class InfoBarButtonSetup():
 				if os.path.isfile("/usr/lib/enigma2/python/Plugins/SystemPlugins/BluetoothSetup/plugin.pyo"):
 					from Plugins.SystemPlugins.BluetoothSetup.plugin import BluetoothSetup
 					self.session.open(BluetoothSetup)
+			elif selected[0] == "YoutubeTV":
+				if os.path.isfile("/usr/lib/enigma2/python/Plugins/Extensions/Chromium/plugin.pyo"):
+					from Plugins.Extensions.Chromium.youtube import YoutubeTVWindow
+					self.session.open(YoutubeTVWindow)
 
 	def showServiceListOrMovies(self):
 		if hasattr(self, "openServiceList"):

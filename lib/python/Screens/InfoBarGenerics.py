@@ -1578,6 +1578,7 @@ class InfoBarMenu:
 				"showNetworkSetup": (self.showNetworkMounts, _("Show network mounts ...")),
 				"showSystemSetup": (self.showSystemMenu, _("Show network mounts ...")),
 				"showRFmod": (self.showRFSetup, _("Show RFmod setup...")),
+				"showHDMIRecord": (self.showHDMiRecordSetup, _("Show HDMIRecord setup...")),
 				"toggleAspectRatio": (self.toggleAspectRatio, _("Toggle aspect ratio...")),
 			})
 		self.session.infobar = None
@@ -1635,6 +1636,10 @@ class InfoBarMenu:
 	def showRFSetup(self):
 		if SystemInfo["RfModulator"]:
 			self.session.openWithCallback(self.mainMenuClosed, Setup, 'RFmod')
+
+	def showHDMiRecordSetup(self):
+		if SystemInfo["HDMIin"]:
+			self.session.openWithCallback(self.mainMenuClosed, Setup, 'HDMIRecord')
 
 	def mainMenuClosed(self, *val):
 		self.session.infobar = None
@@ -3929,6 +3934,9 @@ class InfoBarInstantRecord:
 #		print "stopping recording after", int(value), "minutes."
 		entry = self.recording[self.selectedEntry]
 		if value is not None:
+			value = value.replace(" ", "")
+			if value == "":
+				value = "0"
 			if int(value) != 0:
 				entry.autoincrease = False
 			entry.end = int(time()) + 60 * int(value)
