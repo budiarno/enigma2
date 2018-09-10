@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-14 21:15+0300\n"
+"POT-Creation-Date: 2018-08-27 00:30+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: MCelliot_g <mcelliot_g@hotmail.com>\n"
 "Language-Team: MCelliot_g <mcelliot_g@hotmail.com>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -474,6 +474,9 @@ msgstr "+24"
 
 msgid "-24"
 msgstr "-24"
+
+msgid "-24h/+24 Hours"
+msgstr "-24h/+24 Ώρες"
 
 msgid "/s"
 msgstr "/s"
@@ -1505,6 +1508,12 @@ msgstr "Όλα"
 msgid "All ages"
 msgstr "Όλες οι ηλικίες"
 
+msgid "all events down"
+msgstr "όλα τα προγράμματα κάτω"
+
+msgid "all events up"
+msgstr "όλα τα προγράμματα επάνω"
+
 msgid "All resolutions"
 msgstr "Όλες οι αναλύσεις"
 
@@ -1525,6 +1534,9 @@ msgstr "Όλες οι υπηρεσίες"
 
 msgid "All services provider"
 msgstr "Πάροχος όλων των υπηρεσιών"
+
+msgid "all up/down"
+msgstr "όλο επάνω/κάτω"
 
 msgid "Allocate"
 msgstr "Κατανομή"
@@ -1722,6 +1734,9 @@ msgstr "Είστε έτοιμοι να εκτελέσετε το script;"
 
 msgid "Are you sure to cancel all changes"
 msgstr "Σίγουρα θέλετε να ακυρωθούν όλες οι αλλαγές"
+
+msgid "Are you sure to delete all cuts and marks?"
+msgstr "Σίγουρα θέλετε να διαγραφούν όλα τα σημεία αποκοπής και οι σημειωτές;"
 
 msgid "Are you sure to purge all deleted userbouquets?"
 msgstr ""
@@ -2200,7 +2215,7 @@ msgstr ""
 "θέλετε να εγκατασταθούν τώρα;"
 
 msgid "Backup Settings"
-msgstr "Ρυθμίσεις Εφεδρείας"
+msgstr "Αντίγραφο Ασφαλείας Ρυθμίσεων"
 
 msgid "Backup system settings"
 msgstr "Αντίγραφο ασφαλείας ρυθμίσεων"
@@ -2331,6 +2346,9 @@ msgstr "Μαύρη οθόνη ως το κλείδωμα"
 msgid "blacklist"
 msgstr "μαύρη λίστα"
 
+msgid "Blinking REC"
+msgstr "Αναβοσβηνόμενο Σύμβολο REC"
+
 msgid "Blinking REC Symbol"
 msgstr "Αναβοσβηνόμενο Σύμβολο REC"
 
@@ -2370,8 +2388,8 @@ msgstr "Ενίσχυση του πράσινου"
 msgid "Boot-up action"
 msgstr "Ενέργεια εκκίνησης"
 
-msgid "Bootloader:\t\t%s\n"
-msgstr "Bootloader:\t\t%s\n"
+msgid "Bootloader:\t\t\t%s\n"
+msgstr "Bootloader:\t\t\t%s\n"
 
 msgid "Bootloader update required!"
 msgstr "Απαιτείται ενημέρωση του bootloader!"
@@ -2427,8 +2445,8 @@ msgstr "Προφορτώσεις:"
 msgid "Build: %s"
 msgstr "Χτίσιμο: %s"
 
-msgid "Build:\t%s"
-msgstr "Χτίσιμο:\t%s"
+msgid "Build:\t\t%s"
+msgstr "Χτίσιμο:\t\t%s"
 
 msgid "Bulgarian"
 msgstr "Βουλγαρικά"
@@ -2780,6 +2798,12 @@ msgstr "Κανάλι 1 στην αρχή"
 msgid "Channel 1 with Primetime"
 msgstr "Κανάλι 1 με Ζώνη Αιχμής"
 
+msgid "Channel buttons"
+msgstr "Πλήκτρα καναλιών"
+
+msgid "Channel buttons invert"
+msgstr "Αντιστροφή των πλήκτρων καναλιών"
+
 msgid "Channel down"
 msgstr "Μετάβαση προς τα κάτω"
 
@@ -2928,8 +2952,8 @@ msgstr "Chipset"
 msgid "Chipset: BCM%s"
 msgstr "Chipset: BCM%s"
 
-msgid "Chipset:\t%s"
-msgstr "Chipset:\t%s"
+msgid "Chipset:\t\t%s"
+msgstr "Chipset:\t\t%s"
 
 msgid "Choice Box"
 msgstr "Πλαίσιο Επιλογών"
@@ -3238,6 +3262,9 @@ msgstr "Σύνθετη (επιτρέπει τη μίξη καναλιών ήχο
 msgid "Composition of the recording filenames"
 msgstr "Σύνθεση ονομάτων των εγγραφών"
 
+msgid "Config file name: default (ok to change)"
+msgstr "Όνομα αρχείου ρυθμίσεων: προεπιλογή (ok για αλλαγή)"
+
 msgid "config menu"
 msgstr "μενού ρύθμισης"
 
@@ -3471,6 +3498,13 @@ msgstr "Ρύθμιση της πρώτης γλώσσας των υποτίτλ�
 
 msgid "Configure the font size of the subtitles."
 msgstr "Ρύθμιση του μεγέθους της γραμματοσειράς των υποτίτλων."
+
+msgid ""
+"Configure the font size relative to default size, so 1 increases by 1 point "
+"size, and -1 decreases by 1 point size."
+msgstr ""
+"Ρύθμιση του σχετικού μεγέθους γραμματοσειράς ως προς το θέμα, έτσι το 1 "
+"μεγεθύνει κατά 1 σημείο, και το -1 σμικρύνει κατά 1 σημείο μεγέθους."
 
 msgid ""
 "Configure the font size relative to skin size, so 1 increases by 1 point "
@@ -3947,8 +3981,8 @@ msgstr "Αντιγραφή αρχείων"
 msgid "Cores: %s"
 msgstr "Πυρήνες: %s"
 
-msgid "Cores:\t%s"
-msgstr "Πυρήνες:\t%s"
+msgid "Cores:\t\t%s"
+msgstr "Πυρήνες:\t\t%s"
 
 msgid "Could not connect to server"
 msgstr "Αδυναμία σύνδεσης στο διακομιστή"
@@ -3986,8 +4020,8 @@ msgstr "Επεξεργαστής"
 msgid "CPU: %s"
 msgstr "Επεξεργαστής: %s"
 
-msgid "CPU:\t%s"
-msgstr "Επεξεργαστής:\t%s"
+msgid "CPU:\t\t%s"
+msgstr "Επεξεργαστής:\t\t%s"
 
 msgid "Crash at skin error for debug reasons ?"
 msgstr "Εμφάνιση crash σε σφάλμα θέματος για εκσφαλμάτωση ;"
@@ -4957,8 +4991,8 @@ msgstr "Φορμά δεδομένων DVD Dreambox (μη συμβατό με ά�
 msgid "drivers"
 msgstr "οδηγοί"
 
-msgid "Drivers:\t%s"
-msgstr "Οδηγοί:\t%s"
+msgid "Drivers:\t\t%s"
+msgstr "Οδηγοί:\t\t%s"
 
 msgid "DTS"
 msgstr "DTS"
@@ -5304,6 +5338,13 @@ msgstr "Ενεργοποίηση επίγειου LCN:"
 
 msgid "Enable unlinked bouquets"
 msgstr "Ενεργοποίηση των ασύνδετων μπουκέτων"
+
+msgid ""
+"Enable Up / Down buttons for the 'all up / down' function? (at the "
+"beginning / end of the column)"
+msgstr ""
+"Ενεργοποίηση των πλήκτρων Επάνω / Κάτω για τη λειτουργία 'όλο επάνω / κάτω'; "
+"(στην αρχή / τέλος της στήλης)"
 
 msgid "Enable ViaSat EPG"
 msgstr "Ενεργοποίηση ViaSat EPG"
@@ -6076,6 +6117,12 @@ msgstr "λαϊκή/παραδοσιακή μουσική"
 msgid "Following tasks will be done after you press OK!"
 msgstr "Οι ακόλουθες ενέργειες θα εκτελεστούν αφού πιέσετε ΟΚ!"
 
+msgid "Font size"
+msgstr "Μέγεθος γραμματοσειράς"
+
+msgid "Font size in list"
+msgstr "Μέγεθος γραμματοσειράς στη λίστα"
+
 msgid "Font:"
 msgstr "Γραμματοσειρά:"
 
@@ -6349,6 +6396,9 @@ msgstr "Μετάβαση στο 0"
 msgid "Goto :"
 msgstr "Προς :"
 
+msgid "goto current channel and now"
+msgstr "μετάβαση στο τρέχον κανάλι και τώρα"
+
 msgid "Goto Date/Time"
 msgstr "Μετάβαση σε Ημερομηνία/Ώρα"
 
@@ -6358,8 +6408,14 @@ msgstr "Μετάβαση σε Ημερομηνία/Χρονοδιακόπτη"
 msgid "goto deep-standby"
 msgstr "μετάβαση σε βαθιά αναμονή"
 
+msgid "goto first channel"
+msgstr "Μετάβαση στο πρώτο κανάλι"
+
 msgid "Goto index position"
 msgstr "Μετάβαση στην αποθηκευμένη θέση"
+
+msgid "goto last channel"
+msgstr "Μετάβαση στο τελευταίο κανάλι"
 
 msgid "Goto next bouquet"
 msgstr "Μετάβαση στο επόμενο μπουκέτο"
@@ -6375,6 +6431,9 @@ msgstr "Μετάβαση στην επόμενη εκπομπή"
 
 msgid "Goto next page of events"
 msgstr "Μετάβαση στην επόμενη σελίδα προγραμμάτων"
+
+msgid "goto now"
+msgstr "μετάβαση τώρα"
 
 msgid "Goto position"
 msgstr "Μετάβαση στη θέση"
@@ -6393,6 +6452,9 @@ msgstr "Μετάβαση στην προηγούμενη εκπομπή"
 
 msgid "Goto previous page of events"
 msgstr "Μετάβαση στην προηγούμενη σελίδα συμβάντων"
+
+msgid "Goto Primetime"
+msgstr "Μετάβαση στη Ζώνη Αιχμής"
 
 msgid "Goto specific data/time"
 msgstr "Μετάβαση σε συγκεκριμένα δεδομένα/ημερομηνία"
@@ -6424,6 +6486,9 @@ msgstr "Γραφικά"
 msgid "Greek"
 msgstr "Ελληνικά"
 
+msgid "Greek, Modern (1453-)"
+msgstr "Ελληνικά, Νέα (1453-)"
+
 msgid "green"
 msgstr "πράσινο"
 
@@ -6445,8 +6510,8 @@ msgstr "Αύξηση πτώσης"
 msgid "Grow from left"
 msgstr "Μεγέθυνση από αριστερά"
 
-msgid "GStreamer:\t%s"
-msgstr "GStreamer:\t%s"
+msgid "GStreamer:\t\t%s"
+msgstr "GStreamer:\t\t%s"
 
 msgid "Guard interval"
 msgstr "Διάστημα φύλαξης"
@@ -6606,6 +6671,9 @@ msgid "Here you can select which files should be updated with a online update"
 msgstr ""
 "Εδώ μπορείτε να επιλέξετε ποια αρχεία πρέπει να ενημερωθούν διαδικτυακά"
 
+msgid "Here you can set what is called when pressing the 'Info' key."
+msgstr "Εδώ μπορείτε να ορίσετε τι θα γίνεται με την πίεση του πλήκτρου 'Info'"
+
 msgid ""
 "Here you can specify additional files that should be added to the backup "
 "file."
@@ -6627,6 +6695,9 @@ msgstr "Εμφάνιση όλων των μηνυμάτων σφάλματος �
 
 msgid "Hide known extensions"
 msgstr "Απόκρυψη γνωστών επεκτάσεων"
+
+msgid "Hide mute notification"
+msgstr "Απόκρυψη ειδοποίησης σίγασης"
 
 msgid "Hide parental locked services"
 msgstr "Απόκρυψη υπηρεσιών με γονικό κλείδωμα"
@@ -6719,7 +6790,7 @@ msgid "Hotkey Setup"
 msgstr "Ρυθμίσεις Hotkey"
 
 msgid "Hotkey Setup for"
-msgstr "Ρύθμιση Hotkey για το"
+msgstr "Ρυθμίσεις Hotkey για το"
 
 msgid "Hour"
 msgstr "Ώρα"
@@ -6766,22 +6837,27 @@ msgstr ""
 "Όταν είναι ενεργό, τα δεδομένα ΑΙΤ θα συμπεριλαμβάνονται στις εγγραφές."
 
 msgid ""
-"If enabled, will checks for the time after the start of the receiver is "
-"within the time window and optionally switched to standby. If disabled, must "
-"additional be available a signal for the successful wakeup detection. (some "
-"receiver send a false or none signal)"
+"If enabled, using a time window to detect a wakeup from deep standby by a "
+"timer. Default setting ist disabled and used a special signal from the "
+"receiver. But some devices set a wrong or none signal and the wakeup "
+"detection can fails."
 msgstr ""
-"Όταν είναι ενεργό, θα ελεγχθεί αν ο χρόνος μετά την εκκίνηση του δέκτη είναι "
-"εντός του χρονικού παραθύρου και προαιρετικά θα γίνει μετάβαση σε αναμονή. "
-"Όταν είναι ανενεργό, απαιτείται επιπρόσθετα η παρουσία σήματος για να "
-"επιτευχθεί η ανίχνευση της αφύπνισης. (μερικοί δέκτες στέλνουν ψευδή ή "
-"καθόλου σήματα)"
+"Όταν είναι ενεργό, θα γίνεται χρήση ενός χρονοπλαισίου για τον εντοπισμό της "
+"αφύπνισης από τη βαθιά αναμονή από ένα χρονοδιακόπτη. Η προεπιλεγμένη "
+"ρύθμιση είναι ανενεργή και γίνεται χρήση ενός ειδικού σήματος από το δέκτη. "
+"Όμως μερικές συσκευές δίνουν λανθασμένο ή κανένα σήμα και ο εντοπισμός αυτός "
+"μπορεί να αποτύχει."
 
 msgid ""
 "If logs are using the set maximum space used the eldest will be deleted."
 msgstr ""
 "Αν οι καταγραφές χρησιμοποιούν το μέγιστο ορισμένο χώρο χρήσης, θα "
 "διαγράφονται οι παλαιότερες."
+
+msgid "If muted, hide mute icon or mute information after few seconds."
+msgstr ""
+"Κατά τη σίγαση, να γίνεται απόκρυψη του εικονιδίου ή των πληροφοριών σίγασης "
+"μετά από μερικά δευτερόλεπτα."
 
 msgid ""
 "If set to 'no', can you save older events even after zapping or interruption "
@@ -6906,6 +6982,13 @@ msgstr ""
 "(αριθμός επαναλήψεων):"
 
 msgid ""
+"If you have activated HDMI-CEC, you can specify here whether a 'zap and "
+"record' timer also turns on the TV."
+msgstr ""
+"Αν έχετε ενεργοποιήσει το HDMI-CEC, μπορείτε να ορίσετε εδώ αν ένας "
+"χρονοδιακόπτης 'μετάβαση και εγγραφή' θα ανοίγει επίσης την TV."
+
+msgid ""
 "If you see this, something is wrong with\n"
 "your scart connection. Press OK to return."
 msgstr ""
@@ -7028,8 +7111,8 @@ msgstr ""
 msgid "In progress"
 msgstr "Σε εξέλιξη"
 
-msgid "In the Standby blinking Clock on the LCD Display"
-msgstr "Στην Αναμονή θα εμφανίζεται ένα αναβοσβηνόμενο Ρολόι στην Οθόνη LCD"
+msgid "In the Standby Record on the LCD Display"
+msgstr "Στην Αναμονή Εγγραφή στην Οθόνη LCD"
 
 msgid "Inactive"
 msgstr "Ανενεργό"
@@ -7082,6 +7165,9 @@ msgstr "Ευρετήριο"
 
 msgid "Index allocated:"
 msgstr "Κατανεμημένη θέση:"
+
+msgid "Index Error in the following files: %s"
+msgstr "Σφάλμα Ευρετηρίου στα ακόλουθα αρχεία: %s"
 
 msgid "Indonesian"
 msgstr "Ινδονησιακά"
@@ -7161,6 +7247,9 @@ msgstr "αρχικοποίηση αρθρώματος"
 msgid "init modules"
 msgstr "αρχικοποίηση αρθρωμάτων"
 
+msgid "Init SDCARD"
+msgstr "Αρχικοποίηση Κάρτας SD"
+
 msgid "Init.d"
 msgstr "Init.d"
 
@@ -7199,6 +7288,9 @@ msgstr "Μενού επιλογών"
 
 msgid "Input channel name."
 msgstr "Εισαγωγή ονόματος καναλιού."
+
+msgid "Input config file name:"
+msgstr "Εισαγωγή ονόματος αρχείου ρυθμίσεων:"
 
 msgid "Input devices"
 msgstr "Συσκευές εισόδου"
@@ -7260,8 +7352,8 @@ msgstr "Εγκατάσταση Softcams"
 msgid "Installation finished."
 msgstr "Η εγκατάσταση ολοκληρώθηκε."
 
-msgid "Installed:\t%s"
-msgstr "Εγκαταστάθηκε:\t%s"
+msgid "Installed:\t\t%s"
+msgstr "Εγκαταστάθηκε:\t\t%s"
 
 msgid "Installing"
 msgstr "Εγκατάσταση"
@@ -7343,6 +7435,9 @@ msgstr "Αναστροφή"
 
 msgid "Invert"
 msgstr "Αντιστροφή"
+
+msgid "Inverts the button function."
+msgstr "Αντιστρέφει τη λειτουργία του πλήκτρου."
 
 msgid "IP address"
 msgstr "Διεύθυνση IP"
@@ -7438,8 +7533,14 @@ msgstr "Μετάβαση στο τέλος της λίστας"
 msgid "Jump to next marked position"
 msgstr "Μετάβαση στην επόμενη μαρκαρισμένη θέση"
 
+msgid "jump to next page or all up (setup in menu)"
+msgstr "μετάβαση στην επόμενη σελίδα ή όλο επάνω (ρύθμιση στο μενού)"
+
 msgid "Jump to previous marked position"
 msgstr "Μετάβαση στην προηγούμενη μαρκαρισμένη θέση"
+
+msgid "jump to previous page or all down (setup in menu)"
+msgstr "μετάβαση στην προηγούμενη σελίδα ή όλο κάτω (ρύθμιση στο μενού)"
 
 msgid "Jump to prime time"
 msgstr "Μετάβαση σε ζώνη αιχμής"
@@ -7484,8 +7585,8 @@ msgstr "αρθρώματα kernel"
 msgid "Kernel: %s"
 msgstr "Kernel: %s"
 
-msgid "Kernel:\t%s"
-msgstr "Kernel:\t%s"
+msgid "Kernel:\t\t%s"
+msgstr "Kernel:\t\t%s"
 
 msgid "Keyboard"
 msgstr "Πληκτρολόγιο"
@@ -7507,8 +7608,14 @@ msgstr "Επιλογή διάταξης πλήκτρων"
 msgid "Kleiner Test"
 msgstr "Κουίζ"
 
+msgid "Kodi"
+msgstr "Kodi"
+
 msgid "Kodi installed:"
 msgstr "Το Kodi εγκαταστάθηκε:"
+
+msgid "Kodi Launcher"
+msgstr "Εκκίνηση Kodi"
 
 msgid "Kodi MediaCenter"
 msgstr "Κέντρο Πολυμέσων Kodi"
@@ -7546,8 +7653,8 @@ msgstr "Τελευταία Αιτ."
 msgid "Last speed"
 msgstr "Τελευταία ταχύτητα"
 
-msgid "Last update:\t%s"
-msgstr "Τελευταία ενημέρωση:\t%s"
+msgid "Last update:\t\t%s"
+msgstr "Τελευταία ενημέρωση:\t\t%s"
 
 msgid "Last used share: "
 msgstr "Τελευταίο κοινόχρηστο στοιχείο: "
@@ -7767,6 +7874,9 @@ msgstr "Λίστα τοποθεσιών"
 msgid "Lock ratio"
 msgstr "Κλείδωμα αναλογιών"
 
+msgid "Lock time"
+msgstr "Χρόνος κλειδώματος"
+
 msgid "Lock:"
 msgstr "Κλείδ:"
 
@@ -7794,10 +7904,8 @@ msgstr "Καταγραφές παλιότερες του ορισμένου αρ
 msgid "Logs settings"
 msgstr "Ρυθμίσεις Καταγραφολογίου"
 
-msgid "Log python stack trace on spinner (may have side effects) ?"
-msgstr ""
-"Καταγραφή ίχνους στοίβας python για το spinner (μπορεί να προκαλέσει "
-"προβλήματα) ;"
+msgid "Log python stack trace on spinner ?"
+msgstr "Καταγραφή ίχνους στοίβας python για το spinner ;"
 
 msgid "long"
 msgstr "παρατεταμένο"
@@ -7932,6 +8040,9 @@ msgid "Mark service as dedicated 3D service"
 msgstr "Μαρκάρισμα υπηρεσίας ως σταθερή υπηρεσία 3D"
 
 msgid "Mark/Portal/Playlist"
+msgstr "Μαρκάρισμα/Portal/Λίστα Αναπαραγωγής"
+
+msgid "Mark/Portal/Playlist long"
 msgstr "Μαρκάρισμα/Portal/Λίστα Αναπαραγωγής"
 
 msgid "markername"
@@ -8119,8 +8230,8 @@ msgstr "Μοντέλο: "
 msgid "Model: %s %s\n"
 msgstr "Μοντέλο: %s %s\n"
 
-msgid "Model:\t%s %s\n"
-msgstr "Μοντέλο:\t%s %s\n"
+msgid "Model:\t\t%s %s\n"
+msgstr "Μοντέλοl:\t\t%s %s\n"
 
 msgid "Modulation"
 msgstr "Διαμόρφωση"
@@ -8547,6 +8658,9 @@ msgstr "Επόμενο"
 
 msgid "Next boot will start from Image 1."
 msgstr "Η επόμενη εκκίνηση θα γίνει από το Image 1."
+
+msgid "next channel page"
+msgstr "επόμενη σελίδα καναλιών"
 
 msgid "next higher Resolution"
 msgstr "επόμενη υψηλότερη Ανάλυση"
@@ -9606,6 +9720,9 @@ msgstr "λογότυπα (picons)"
 msgid "picshow"
 msgstr "εμφάνιση εικόνων"
 
+msgid "Picture in EPG"
+msgstr "Εικόνα σε EPG"
+
 msgid "Picture in graphics"
 msgstr "Εικόνα σε γραφικά"
 
@@ -10415,6 +10532,15 @@ msgstr "Προεπισκόπηση επιλεγμένου καναλιού"
 msgid "Previous"
 msgstr "Προηγούμενο"
 
+msgid "previous/next Page"
+msgstr "προηγούμενη/επόμενη Σελίδα"
+
+msgid "previous channel page"
+msgstr "προηγούμενη σελίδα καναλιών"
+
+msgid "previous page"
+msgstr "προηγούμενη σελίδα"
+
 msgid "Prevsong"
 msgstr "Προηγούμενο τραγούδι"
 
@@ -10442,8 +10568,8 @@ msgstr "Προτεραιότητα"
 msgid "Process"
 msgstr "Επεξεργασία"
 
-msgid "Processor temperature:\t%s"
-msgstr "Θερμοκρασία επεξεργαστή\t%s"
+msgid "Processor temperature:\t\t%s"
+msgstr "Θερμοκρασία επεξεργαστή:\t\t%s"
 
 msgid "Profile"
 msgstr "Προφίλ"
@@ -10604,8 +10730,8 @@ msgstr "Εκκίνηση Cam μέσω Python (προεπιλογή)"
 msgid "Python frontend for /tmp/mmi.socket"
 msgstr "Python του tuner για το /tmp/mmi.socket"
 
-msgid "Python:\t%s"
-msgstr "Python:\t%s"
+msgid "Python:\t\t%s"
+msgstr "Python:\t\t%s"
 
 msgid "Quad PiP Channel Selection"
 msgstr "Επιλογή Καναλιού Τετραπλού PiP"
@@ -10765,11 +10891,20 @@ msgstr "ΕΓΓΡ"
 msgid "Rec"
 msgstr "Εγγρ."
 
+msgid "REC "
+msgstr "ΕΓΓΡ "
+
 msgid "Rec long"
 msgstr "Εγγραφή παρατεταμένο"
 
 msgid "REC Symbol"
-msgstr "Εικονίδιο REC"
+msgstr "Σύμβολο REC"
+
+msgid "REC Symbol in Standby"
+msgstr "Σύμβολο REC κατά την Αναμονή"
+
+msgid "REC Symbol in use"
+msgstr "Σύμβολο REC σε χρήση"
 
 msgid "Reception lists"
 msgstr "Λίστες λήψης"
@@ -10992,6 +11127,9 @@ msgstr "διαγραφή μετά από αυτό το σημείο"
 
 msgid "remove all alternatives"
 msgstr "διαγραφή όλων των εναλλακτικών"
+
+msgid "Remove all cuts and marks"
+msgstr "διαγραφή όλων των σημείων αποκοπής και σημειωτών"
 
 msgid "remove all new found flags"
 msgstr "διαγραφή όλων των νέων σημαιών"
@@ -12020,8 +12158,8 @@ msgstr "Επιλέξτε πάροχο, και πιέστε ΟΚ για να ξε
 msgid "Select Your Skin"
 msgstr "Επιλογή θέματος"
 
-msgid "Selected Image:\t%s"
-msgstr "Επιλεγμένο Image:\t%s"
+msgid "Selected Image:\t\t%s"
+msgstr "Επιλεγμένο Image:\t\t%s"
 
 msgid ""
 "Selected settingslist: %s\n"
@@ -12167,6 +12305,12 @@ msgstr ""
 msgid "Service number font size"
 msgstr "Μέγεθος γραμματοσειράς αριθμού υπηρεσίας"
 
+msgid "Service Number and Service Name"
+msgstr "Αριθμός και Όνομα Υπηρεσίας"
+
+msgid "Service Number, Picon and Service Name"
+msgstr "Αριθμός, Λογότυπο και Όνομα Υπηρεσίας"
+
 msgid "Service picons downsize"
 msgstr "Σμίκρυνση λογότυπων υπηρεσίας"
 
@@ -12221,8 +12365,14 @@ msgstr ""
 "Οι υπηρεσίες μπορούν να ομαδοποιηθούν σε μπουκέτα. Όταν είναι ενεργό, "
 "μπορείτε να χρησιμοποιήσετε παραπάνω του ενός μπουκέτα."
 
+msgid "Set action for 'Info' key"
+msgstr "Επιλογή ενέργειας Πλήκτρου 'Info'"
+
 msgid "set as startup service"
 msgstr "ορισμός ως υπηρεσία εκκίνησης"
+
+msgid "Set Basetime"
+msgstr "Ορισμός Χρόνου Βάσης"
 
 msgid "Set CI assignment for detection of available services."
 msgstr "Ορισμός ανάθεσης CI για εντοπισμό των διαθέσιμων συσκευών."
@@ -12406,10 +12556,9 @@ msgstr ""
 "Ορισμός του φακέλου ρίζας της λίστας ταινιών, για να αφαιρεθεί το '..' που "
 "φαίνεται στην αρχή αυτού του φακέλου."
 
-msgid "Set to yes ONLY TEMPORARILY for debugging the root cause of a spinner."
+msgid "Set to yes for debugging the root cause of a spinner."
 msgstr ""
-"Θέστε την επιλογή σε ναι ΜΟΝΟ ΠΡΟΣΩΡΙΝΑ για εκσφαλμάτωση της αιτίας "
-"πρόκλησης ενός spinner."
+"Θέστε την επιλογή σε ναι για εκσφαλμάτωση της αιτίας πρόκλησης ενός spinner."
 
 msgid "Setting Restored "
 msgstr "Έγινε Επαναφορά των Ρυθμίσεων "
@@ -12730,9 +12879,6 @@ msgstr "Εμφάνιση φόντου στη Λειτουργία Ραδιοφώ
 msgid "Show background when tuned to a radio channel."
 msgstr "Εμφάνιση φόντου κατά το συντονισμό σε ραδιοφωνικό κανάλι."
 
-msgid "Show blinking Clock in Standby on Display during recording"
-msgstr "Εμφάνιση αναβοσβηνόμενου Ρολογιού στην Αναμονή κατά την εγγραφή"
-
 msgid "Show blinking Clock on Display during recording"
 msgstr "Εμφάνιση αναβοσβηνόμενου Ρολογιού στην Οθόνη κατά την εγγραφή"
 
@@ -12838,6 +12984,9 @@ msgstr "Εμφάνιση προεπιλεγμένων αρχείων εφεδρ�
 msgid "Show detailed event info"
 msgstr "Εμφάνιση αναλυτικών πληροφοριών προγράμματος"
 
+msgid "Show detailed event info (setup in menu)"
+msgstr "Εμφάνιση αναλυτικών πληροφοριών προγράμματος (ρύθμιση στο μενού)"
+
 msgid "Show Display Icons"
 msgstr "Εμφάνιση Εικονιδίων Οθόνης"
 
@@ -12930,6 +13079,9 @@ msgstr "Εμφάνιση εικονιδίου για νέα αντικείμεν
 msgid "Show in extensions list ?"
 msgstr "Εμφάνιση στη λίστα επεκτάσεων ;"
 
+msgid "Show in Standby"
+msgstr "Εμφάνιση κατά την Αναμονή"
+
 msgid "Show info"
 msgstr "Εμφάνιση πληροφοριών"
 
@@ -12971,6 +13123,12 @@ msgstr "Εμφάνιση Καταγραφής"
 
 msgid "Show Log Manager in extensions list ?"
 msgstr "Εμφάνιση της Διαχείρισης Καταγραφών στη λίστα επεκτάσεων ;"
+
+msgid "Show marked events"
+msgstr "Εμφάνιση μαρκαρισμένων προγραμμάτων"
+
+msgid "Show marked events in all rows."
+msgstr "Εμφάνιση μαρκαρισμένων προγραμμάτων σε όλες τις σειρές."
 
 msgid "Show Media playback Remaining/Elapsed as"
 msgstr "Εμφάνιση Εναπομείναντα/Παρελθόντα χρόνου αναπαραγωγής ως"
@@ -13032,6 +13190,12 @@ msgstr "Εμφάνιση του OScam στις επεκτάσεις ;"
 
 msgid "Show OscamInfo in Extensions Menu"
 msgstr "Εμφάνιση των Πληροφοριών Oscam στο Μενού Προσθέτων"
+
+msgid "Show parting lines"
+msgstr "Εμφάνιση γραμμών διαχωρισμού"
+
+msgid "Show parting lines between events."
+msgstr "Εμφάνιση γραμμών διαχωρισμού ανάμεσα στα προγράμματα."
 
 msgid "Show picon background colour"
 msgstr "Εμφάνιση χρώματος φόντου στα λογότυπα"
@@ -13113,6 +13277,9 @@ msgstr "Εμφάνιση Μονού EPG"
 
 msgid "Show single epg for current channel"
 msgstr "Εμφάνιση μονού epg για το τρέχον κανάλι"
+
+msgid "Show single epg for current channel (setup in menu)"
+msgstr "Εμφάνιση μονού epg για το τρέχον κανάλι (ρύθμιση στο μενού)"
 
 msgid "Show single service EPG"
 msgstr "Εμφάνιση EPG μίας μόνο υπηρεσίας"
@@ -13215,6 +13382,12 @@ msgstr ""
 
 msgid "Show VCR scart on main menu"
 msgstr "Εμφάνιση VCR scart στο κύριο μενού"
+
+msgid "Show Vertical EPG"
+msgstr "Εμφάνιση Κάθετου EPG"
+
+msgid "Show vertical Program Guide"
+msgstr "Εμφάνιση κάθετου Οδηγού Προγράμματος"
 
 msgid "Show warning before restart"
 msgstr "Προειδοποίηση πριν την επανεκκίνηση"
@@ -14946,6 +15119,11 @@ msgstr ""
 "χρόνου αναπαραγωγής πολυμέσων."
 
 msgid ""
+"This option allows you choose how to display the Time or nothing in Standby"
+msgstr ""
+"Αυτή η επιλογή ορίζει τον τρόπο εμφάνισης της Ώρας ή τίποτα κατά την Αναμονή"
+
+msgid ""
 "This option allows you choose the background colour of transparent picons."
 msgstr ""
 "Αυτή η επιλογή επιτρέπει να διαλέξετε το χρώμα φόντου των διάφανων λογότυπων."
@@ -15317,6 +15495,9 @@ msgstr "Μεσοδιάστημα επανάληψης για την προώθη
 msgid "Time jump: Use normal fast forward for speeds"
 msgstr "Υπερπήδηση χρόνου: Χρήση κανονικής προώθησης για ταχύτητες"
 
+msgid "Time long"
+msgstr "Χρόνος παρατεταμένο"
+
 msgid "Time range:"
 msgstr "Χρονικό εύρος:"
 
@@ -15607,6 +15788,10 @@ msgstr "παραδοσιακή (γρήγορη), επανασυντονισμό�
 msgid "Traditional Chinese"
 msgstr "Παραδοσιακά Κινεζικά"
 
+msgid "Trafic light state is '%s' - please use a another image."
+msgstr ""
+"Η κατάσταση του φαναριού είναι '%s' - παρακαλώ χρησιμοποιήστε ένα άλλο image."
+
 msgid "Transcode"
 msgstr "Διακωδικοποίηση"
 
@@ -15803,6 +15988,10 @@ msgstr "Ενεργοποίηση λειτουργίας Πλήρους Οθόν�
 msgid "Turn on HDMI-IN PiP mode"
 msgstr "Ενεργοποίηση λειτουργίας PiP HDMI-IN"
 
+msgid "Turn on the TV from standby with 'zap and record' timer"
+msgstr ""
+"Άνοιγμα της TV από την αναμονή με το χρονοδιακόπτη 'μετάβαση και εγγραφή'"
+
 msgid "Turning step size"
 msgstr "Μέγεθος βήματος περιστροφής"
 
@@ -15933,6 +16122,9 @@ msgstr "Επάνω"
 
 msgid "Up/Down button mode"
 msgstr "Λειτουργία πλήκτρου επάνω/κάτω"
+
+msgid "Up/Down buttons also for 'all up/down'?"
+msgstr "Πλήκτρα Επάνω/Κάτω επίσης για το 'όλο επάνω/κάτω';"
 
 msgid "UP80  (keymap.u80)"
 msgstr "UP80  (keymap.u80)"
@@ -16384,8 +16576,8 @@ msgstr "Έκδοση: "
 msgid "Version: %s"
 msgstr "Έκδοση: %s"
 
-msgid "Version:\t%s"
-msgstr "Έκδοση:\t%s"
+msgid "Version:\t\t%s"
+msgstr "Έκδοση:\t\t%s"
 
 msgid "vertical"
 msgstr "κάθετη"
@@ -16393,8 +16585,14 @@ msgstr "κάθετη"
 msgid "Vertical"
 msgstr "Κάθετη"
 
+msgid "Vertical EPG"
+msgstr "Κάθετος EPG"
+
 msgid "Vertical turning speed"
 msgstr "Ταχύτητα περιστροφής σε κάθετη πόλωση"
+
+msgid "VerticalEPG settings"
+msgstr "Ρυθμίσεις Κάθετου EPG"
 
 msgid "Very short filenames"
 msgstr "Πολύ σύντομα ονόματα αρχείου"
@@ -17998,10 +18196,10 @@ msgstr ""
 
 msgid ""
 "\n"
-"%d.%d.%d, %2d:%02d  -  %s"
+"%Y/%m/%d  %H:%M - "
 msgstr ""
 "\n"
-"%d.%d.%d, %2d:%02d  -  %s"
+"%Y/%m/%d  %H:%M - "
 
 msgid ""
 "\n"
@@ -18894,300 +19092,11 @@ msgstr "Ζάμπια"
 msgid "Zimbabwe"
 msgstr "Ζιμπάμπουε"
 
-msgid "oscam webif blocking localhost (127.0.0.1)"
-msgstr "η διεπαφή oscam μπλοκάρει την τοπική διεύθυνση (127.0.0.1)"
-
-msgid "oscam webif blocking localhost (::1 and 127.0.0.1)"
-msgstr "η διεπαφή oscam μπλοκάρει την τοπική διεύθυνση (::1 and 127.0.0.1)"
-
-msgid ""
-"Step value for fast switching or long press the volume button. Depending on "
-"the setting (if greater) and the current volume (if less) will adjusted the "
-"step. (30 to 4, 18 to 3, 9 to 2 and 3 to 1)"
-msgstr ""
-"Μέγεθος βήματος για γρήγορη αλλαγή ή παρατεταμένη πίεση του πλήκτρου "
-"έντασης. Ανάλογα με τη ρύθμιση (εάν μεγαλύτερη) και την τρέχουσα ένταση (εάν "
-"μικρότερη) θα ρυθμιστεί το βήμα. (30 σε 4, 18 σε 3, 9 σε 2 και 3 σε 1)"
-
-msgid ""
-"Step value for single press the volume button. Depending on the setting (if "
-"greater) and the current volume (if less) will adjusted the step. (30 to 4, "
-"18 to 3, 9 to 2 and 3 to 1)"
-msgstr ""
-"Μέγεθος βήματος ανά πίεση του πλήκτρου έντασης. Ανάλογα με τη ρύθμιση (εάν "
-"μεγαλύτερη) και την τρέχουσα ένταση (εάν μικρότερη) θα ρυθμιστεί το βήμα. "
-"(30 σε 4, 18 σε 3, 9 σε 2 και 3 σε 1)"
-
-msgid "??"
-msgstr ";;"
-
-msgctxt "third event: 'third' event label"
-msgid "Later"
-msgstr "Αργότερα"
-
-msgid ""
-"Check with an alternative method (some boxes gives no signal when starts "
-"from a timer) if there is a timer started in the next 10 mins (at bootup), "
-"then will put your box in standby."
-msgstr ""
-"Έλεγχος με εναλλακτική μέθοδο (μερικοί δέκτες δεν δίνουν σήμα όταν ανοίγουν "
-"από χρονοδιακόπτη) αν υπάρχει χρονοδιακόπτης που ξεκινά στα επόμενα 10 λεπτά "
-"(στην εκκίνηση), έπειτα θα τεθεί ο δέκτης σας σε αναμονή."
-
-msgid "Configure how recording filenames are constructed."
-msgstr "Ρύθμιση του τρόπου σύνθεσης των ονομάτων των εγγραφών."
-
-msgid "Show DVD-Player in Mainmenu when BMC is installed ?"
-msgstr ""
-"Εμφάνιση του αναπαραγωγού DVD στο Κύριο μενού όταν είναι εγκατεστημένο το "
-"BMC;"
-
-msgid ""
-"The standard wakeup time is 5 minutes (or box specific) before a timer "
-"starts. Is the real wake up time outside 10 mins (some boxes starts not "
-"punctually) to the next timer will not switched to standby. (minus value = "
-"wake up to timer is shorter)"
-msgstr ""
-"Ο στάνταρ χρόνος αφύπνισης είναι 5 λεπτά (ανάλογα με το δέκτη) πριν "
-"ξεκινήσει ένας χρονοδιακόπτης. Αν ο πραγματικός χρόνος αφύπνισης είναι εκτός "
-"των 10 λεπτών (μερικοί δέκτες δεν ξεκινούν με ακρίβεια) στον επόμενο "
-"χρονοδιακόπτη δεν θα γίνει αναμονή. (αρνητική τιμή = μικρότερος χρόνος "
-"αφύπνισης)"
-
-msgid "Use individual offset from waking up to starting a timer [min]"
-msgstr ""
-"Χρήση προσαρμοσμένου χρόνου καθυστέρησης από την αφύπνιση έως την εκκίνηση "
-"ενός χρονοδιακόπτη [λεπτά]"
-
-msgid "A graphical EPG for all services of an specific bouquet"
-msgstr "Γραφικό EPG για όλες τις υπηρεσίες σε συγκεκριμένο μπουκέτο"
-
-msgid "Dialing:"
-msgstr "Κλήση:"
-
-msgid ""
-"No valid service PIN found!\n"
-"Do you like to change the service PIN now?\n"
-"When you say 'No' here the service protection stay disabled!"
-msgstr ""
-"Δεν βρέθηκε έγκυρο PIN υπηρεσίας!\n"
-"Θέλετε να αλλάξετε τον κωδικό PIN της υπηρεσίας τώρα;\n"
-"Αν επιλέξετε 'Όχι' εδώ, η προστασία υπηρεσιών θα παραμείνει ανενεργή!"
-
-msgid ""
-"No valid setup PIN found!\n"
-"Do you like to change the setup PIN now?\n"
-"When you say 'No' here the setup protection stay disabled!"
-msgstr ""
-"Δεν βρέθηκε έγκυρο PIN εγκατάστασης!\n"
-"Θέλετε να αλλάξετε τον κωδικό PIN εγκατάστασης τώρα;\n"
-"Αν επιλέξετε 'Όχι' εδώ, η προστασία της εγκατάστασης θα παραμείνει ανενεργή!"
-
-msgid ""
-"The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a %s %s format data DVD (which will not play in stand-alone DVD "
-"players) instead?"
-msgstr ""
-"Το πρότυπο DVD δεν υποστηρίζει ροές βίντεο H.264 (HDTV). Θέλετε να "
-"δημιουργήσετε ένα φορμά DVD δεδομένων %s %s (που δεν θα παίζει σε κοινά DVD "
-"players) αντ' αυτού;"
-
-msgid "skinpacks"
-msgstr "πακέτα θεμάτων"
-
-msgid "This allows you to show skinpacks in downloads"
-msgstr "Αυτό επιτρέπει την εμφάνιση των πακέτων θεμάτων στις λήψεις"
-
-msgid "CPU-Load: %s"
-msgstr "CPU-Φόρτος: %s"
-
-msgid "CPU-Temp: %s"
-msgstr "CPU-Θερμ: %s"
-
-msgid "SYS-Temp: %s"
-msgstr "SYS-Θερμ: %s"
-
-msgid "RAM-Free: %s MB"
-msgstr "RAM-Ελεύθ.: %s MB"
-
-msgid "Flash Memory free: %s MByte"
-msgstr "Flash Μνήμη ελεύθερη: %s MByte"
-
-msgid "CPU-Speed: %s MHz"
-msgstr "Ταχύτητα CPU: %s MHz"
-
 msgid "Video:"
 msgstr "Βίντεο:"
 
 msgid "Audio:"
 msgstr "Ήχος:"
 
-msgid "Greek, Modern (1453-)"
-msgstr "Ελληνικά, Νέα (1453-)"
-
 msgid "Internal Flash"
 msgstr "Εσωτερική Flash"
-
-msgid "Down long"
-msgstr "Κάτω παρατεταμένο"
-
-msgid "Up long"
-msgstr "Επάνω παρατεταμένο"
-
-msgid "Volume adjust fast"
-msgstr "Γρήγορη προσαρμογή έντασης ήχου"
-
-msgid "Volume adjust slow"
-msgstr "Αργή προσαρμογή έντασης ήχου"
-
-msgid ""
-"Configure how recording filenames are constructed.\n"
-"Standard: Date Time - Channel - Title\n"
-"Very very short: Title\n"
-"Very short: Title - Date Time\n"
-"Short with time: Date Time - Title\n"
-"Short: Date - Title\n"
-"Long: Date Time - Channel - Title - Info"
-msgstr ""
-"Configure how recording filenames are constructed.\n"
-"Στάνταρ: Ημερομηνία Ώρα - Κανάλι - Τίτλος\n"
-"Πάρα πολύ σύντομα: Τίτλος\n"
-"Πολύ σύντομα: Τίτλος - Ημερομηνία Ώρα\n"
-"Σύντομα με ώρα: Ημερομηνία Ώρα - Τίτλος\n"
-"Σύντομα: Ημερομηνία - Τίτλος\n"
-"Μακριά: Ημερομηνία Ώρα - Κανάλι - Τίτλος - Πληροφορίες"
-
-msgid "Clean network trash can's"
-msgstr "Εκκαθάριση κάδων αχρήστων δικτύου"
-
-msgid "Show recording symbol depending on recording type"
-msgstr "Εμφάνιση εγγραφών βάσει του τύπου τους"
-
-msgid ""
-"Configure default setting for timer type. Need a restart after changing."
-msgstr ""
-"Ρύθμιση προεπιλογής για νέους χρονοδιακόπτες. Απαιτείται επανεκκίνηση μετά "
-"την αλλαγή."
-
-msgid "%d Mins"
-msgstr "%d Λεπτά"
-
-msgid "Add bouquet services"
-msgstr "Προσθήκη υπηρεσίας μπουκέτου"
-
-msgid "Leave DVD Player?"
-msgstr "Έξοδος από την αναπαραγωγή DVD;"
-
-msgctxt "Video output mode"
-msgid "Mode"
-msgstr "Λειτουργία"
-
-msgctxt "now/next: 'next' event label"
-msgid "Next"
-msgstr "Επόμενο"
-
-msgctxt "now/next: 'now' event label"
-msgid "Now"
-msgstr "Τώρα"
-
-msgid "Play Audio-CD..."
-msgstr "Αναπαραγωγή CD ήχου..."
-
-msgid "Play Music..."
-msgstr "Αναπαραγωγή μουσικής..."
-
-msgid "Remote Tuner Server"
-msgstr "Διακομιστής Απομακρυσμένου Tuner"
-
-msgid "Remote Tuner Server Setup"
-msgstr "Ρύθμιση Διακομιστή Απομακρυσμένου Tuner"
-
-msgid "RemoteTuner"
-msgstr "Απομακρυσμένο Tuner"
-
-msgid "Return to file browser"
-msgstr "Επιστροφή στον πλοηγό αρχείων"
-
-msgid "Setup Remote Tuner Server"
-msgstr "Ρύθμιση Διακομιστή Απομακρυσμένου Tuner"
-
-msgid "View Movies..."
-msgstr "Παρακολούθηση Ταινιών..."
-
-msgid "View Video CD..."
-msgstr "Παρακολούθηση video CD..."
-
-msgid "set as startup service from standby"
-msgstr "ορισμός ως υπηρεσία εκκίνησης από αναμονή"
-
-msgid "stop using as startup service from standby"
-msgstr "τέλος χρήσης ως υπηρεσία εκκίνησης από αναμονή"
-
-msgid "DVD-Player Setup"
-msgstr "Ρυθμίσεις Αναπαραγωγού DVD"
-
-msgid "Show DVD-Player in Mainmenu"
-msgstr "Εμφάνιση του αναπαραγωγού πολυμέσων στο κύριο μενού"
-
-msgid "%d job is running in the background!"
-msgid_plural "%d jobs are running in the background!"
-msgstr[0] "εκτελείται %d εργασία στο παρασκήνιο!"
-msgstr[1] "εκτελούνται %d εργασίες στο παρασκήνιο!"
-
-msgid "%d jobs are running in the background!"
-msgstr "εκτελούνται %d εργασίες στο παρασκήνιο!"
-
-msgid ""
-"A finished power timer wants to shut down\n"
-"your %s %s. Shutdown now?"
-msgstr ""
-"Ένας ολοκληρωμένος χρονοδιακόπτης εγγραφής θέλει \n"
-"να τερματίσει τον %s %s σας. Να γίνει τώρα;"
-
-msgid "Change service PINs"
-msgstr "Αλλαγή PIN υπηρεσιών"
-
-msgid "Connected!"
-msgstr "Συνδεδεμένο!"
-
-msgid "Disconnect"
-msgstr "Αποσύνδεση"
-
-msgid "Edit bouquets list"
-msgstr "Επεξεργασίας λίστας μπουκέτων"
-
-msgid "Parental control type"
-msgstr "Τύπος γονικού ελέγχου"
-
-msgid "Phone number"
-msgstr "Τηλεφωνικός αριθμός"
-
-msgid "Service title mode"
-msgstr "Λειτουργία τίτλου υπηρεσίας"
-
-msgid "Show services beginning with"
-msgstr "Εμφάνιση υπηρεσιών που ξεκινούν από"
-
-msgid "Show tag menu"
-msgstr "Εμφάνιση μενού ετικετών"
-
-msgid "Single transponder"
-msgstr "Μονός αναμεταδότης"
-
-msgid "Uncommitted DiSEqC command"
-msgstr "Μη δεσμευμένη εντολή DiSEqC 1.0"
-
-msgid "Video fine-tuning"
-msgstr "Μικρορύθμιση εικόνας"
-
-msgid "Zap back to service before satfinder?"
-msgstr "Eπιστροφή στην υπηρεσία πριν την εύρεση σήματος;"
-
-msgid "complex"
-msgstr "σύνθετη"
-
-msgid "wait for ci..."
-msgstr "αναμονή για ci..."
-
-msgid "whitelist"
-msgstr "λευκή λίστα"

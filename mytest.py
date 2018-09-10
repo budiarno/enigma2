@@ -398,8 +398,8 @@ class PowerKey:
 		self.doAction(action = config.usage.on_long_powerpress.value)
 
 	def doAction(self, action):
-		if Screens.Standby.TVinStandby:
-			Screens.Standby.setTVstate('on')
+		if Screens.Standby.TVinStandby.getTVstate('standby'):
+			Screens.Standby.TVinStandby.setTVstate('on')
 			return
 
 		self.standbyblocked = 1
@@ -418,16 +418,10 @@ class PowerKey:
 						menu_screen.setTitle(_("Standby / restart"))
 						return
 		elif action == "standby":
-			try:
-				config.hdmicec.control_tv_standby_skipnow.setValue(False)
-			except:
-				pass # no HdmiCec
+			Screens.Standby.TVinStandby.skipHdmiCecNow(False)
 			self.standby()
 		elif action == "standby_noTVshutdown":
-			try:
-				config.hdmicec.control_tv_standby_skipnow.setValue(True)
-			except:
-				pass # no HdmiCec
+			Screens.Standby.TVinStandby.skipHdmiCecNow(True)
 			self.standby()
 		elif action == "powertimerStandby":
 			val = 3
@@ -450,6 +444,7 @@ class PowerKey:
 
 	def standby(self):
 		if not Screens.Standby.inStandby and self.session.current_dialog and self.session.current_dialog.ALLOW_SUSPEND and self.session.in_exec:
+			self.session.nav.skipWakeup = True
 			self.session.open(Screens.Standby.Standby)
 
 	def openSleepTimer(self):
@@ -590,7 +585,7 @@ def runScreenTest():
 	profile("Init:PowerKey")
 	power = PowerKey(session)
 	
-	if boxtype in ('osninopro','osnino','osninoplus','alphatriple','spycat4kmini','tmtwin4k','mbmicrov2','revo4k','force3uhd','wetekplay', 'wetekplay2', 'wetekhub', 'dm7020hd', 'dm7020hdv2', 'osminiplus', 'osmega', 'sf3038', 'spycat', 'e4hd', 'e4hdhybrid', 'mbmicro', 'et7500', 'mixosf5', 'mixosf7', 'mixoslumi', 'gi9196m', 'maram9', 'ixussone', 'ixusszero', 'uniboxhd1', 'uniboxhd2', 'uniboxhd3', 'sezam5000hd', 'mbtwin', 'sezam1000hd', 'mbmini', 'atemio5x00', 'beyonwizt3', '9910lx', '9911lx') or getBrandOEM() in ('fulan') or getMachineBuild() in ('dags7362' , 'dags73625', 'dags5'):
+	if boxtype in ('sf8008','clap4k','alien5','osninopro','osnino','osninoplus','alphatriple','spycat4kmini','tmtwin4k','mbmicrov2','revo4k','force3uhd','wetekplay', 'wetekplay2', 'wetekhub', 'dm7020hd', 'dm7020hdv2', 'osminiplus', 'osmega', 'sf3038', 'spycat', 'e4hd', 'e4hdhybrid', 'mbmicro', 'et7500', 'mixosf5', 'mixosf7', 'mixoslumi', 'gi9196m', 'maram9', 'ixussone', 'ixusszero', 'uniboxhd1', 'uniboxhd2', 'uniboxhd3', 'sezam5000hd', 'mbtwin', 'sezam1000hd', 'mbmini', 'atemio5x00', 'beyonwizt3', '9910lx', '9911lx') or getBrandOEM() in ('fulan') or getMachineBuild() in ('dags7362' , 'dags73625', 'dags5'):
 		profile("VFDSYMBOLS")
 		import Components.VfdSymbols
 		Components.VfdSymbols.SymbolsCheck(session)

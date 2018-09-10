@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openATV / enigma2\n"
-"POT-Creation-Date: 2018-05-04 02:55+0300\n"
+"POT-Creation-Date: 2018-09-07 18:50+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME\n"
 "Language-Team: TEAM <EMAIL@ADDRESS>\n"
@@ -204,10 +204,16 @@ msgid_plural "%d pixels wide"
 msgstr[0] ""
 msgstr[1] ""
 
+msgid "%d sec"
+msgstr ""
+
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] ""
 msgstr[1] ""
+
+msgid "%d times"
+msgstr ""
 
 msgid "%d wireless network found!"
 msgid_plural "%d wireless networks found!"
@@ -330,6 +336,9 @@ msgstr ""
 msgid "( All readers)"
 msgstr ""
 
+msgid "(e.g. TV wakeup, but not switched to correct input)"
+msgstr ""
+
 msgid "(empty)"
 msgstr ""
 
@@ -364,6 +373,9 @@ msgid "+24"
 msgstr ""
 
 msgid "-24"
+msgstr ""
+
+msgid "-24h/+24 Hours"
 msgstr ""
 
 msgid "/s"
@@ -1272,6 +1284,12 @@ msgstr ""
 msgid "All ages"
 msgstr ""
 
+msgid "all events down"
+msgstr ""
+
+msgid "all events up"
+msgstr ""
+
 msgid "All resolutions"
 msgstr ""
 
@@ -1291,6 +1309,9 @@ msgid "All Services"
 msgstr ""
 
 msgid "All services provider"
+msgstr ""
+
+msgid "all up/down"
 msgstr ""
 
 msgid "Allocate"
@@ -1465,6 +1486,9 @@ msgid "Are you ready to run the script ?"
 msgstr ""
 
 msgid "Are you sure to cancel all changes"
+msgstr ""
+
+msgid "Are you sure to delete all cuts and marks?"
 msgstr ""
 
 msgid "Are you sure to purge all deleted userbouquets?"
@@ -2019,6 +2043,9 @@ msgstr ""
 msgid "blacklist"
 msgstr ""
 
+msgid "Blinking REC"
+msgstr ""
+
 msgid "Blinking REC Symbol"
 msgstr ""
 
@@ -2439,6 +2466,12 @@ msgstr ""
 msgid "Channel 1 with Primetime"
 msgstr ""
 
+msgid "Channel buttons"
+msgstr ""
+
+msgid "Channel buttons invert"
+msgstr ""
+
 msgid "Channel down"
 msgstr ""
 
@@ -2539,6 +2572,9 @@ msgid "Check every (hours)"
 msgstr ""
 
 msgid "Check HDD"
+msgstr ""
+
+msgid "Check power state from TV"
 msgstr ""
 
 msgid "Check the internet connection"
@@ -3010,6 +3046,9 @@ msgid "Configure the first subtitle language (highest priority)."
 msgstr ""
 
 msgid "Configure the font size of the subtitles."
+msgstr ""
+
+msgid "Configure the font size relative to default size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
 msgstr ""
 
 msgid "Configure the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
@@ -4608,6 +4647,9 @@ msgstr ""
 msgid "Enable unlinked bouquets"
 msgstr ""
 
+msgid "Enable Up / Down buttons for the 'all up / down' function? (at the beginning / end of the column)"
+msgstr ""
+
 msgid "Enable ViaSat EPG"
 msgstr ""
 
@@ -5315,6 +5357,12 @@ msgstr ""
 msgid "Following tasks will be done after you press OK!"
 msgstr ""
 
+msgid "Font size"
+msgstr ""
+
+msgid "Font size in list"
+msgstr ""
+
 msgid "Font:"
 msgstr ""
 
@@ -5588,6 +5636,9 @@ msgstr ""
 msgid "Goto :"
 msgstr ""
 
+msgid "goto current channel and now"
+msgstr ""
+
 msgid "Goto Date/Time"
 msgstr ""
 
@@ -5597,7 +5648,13 @@ msgstr ""
 msgid "goto deep-standby"
 msgstr ""
 
+msgid "goto first channel"
+msgstr ""
+
 msgid "Goto index position"
+msgstr ""
+
+msgid "goto last channel"
 msgstr ""
 
 msgid "Goto next bouquet"
@@ -5613,6 +5670,9 @@ msgid "Goto next event"
 msgstr ""
 
 msgid "Goto next page of events"
+msgstr ""
+
+msgid "goto now"
 msgstr ""
 
 msgid "Goto position"
@@ -5631,6 +5691,9 @@ msgid "Goto previous event"
 msgstr ""
 
 msgid "Goto previous page of events"
+msgstr ""
+
+msgid "Goto Primetime"
 msgstr ""
 
 msgid "Goto specific data/time"
@@ -5708,7 +5771,13 @@ msgstr ""
 msgid "handicraft"
 msgstr ""
 
+msgid "Handle input from TV"
+msgstr ""
+
 msgid "Handle standby from TV"
+msgstr ""
+
+msgid "'Handle standby from TV' has a higher priority as 'Handle input from TV'"
 msgstr ""
 
 msgid "Handle wakeup from TV"
@@ -5831,6 +5900,9 @@ msgid "Hide any zap error messages."
 msgstr ""
 
 msgid "Hide known extensions"
+msgstr ""
+
+msgid "Hide mute notification"
 msgstr ""
 
 msgid "Hide parental locked services"
@@ -5971,6 +6043,9 @@ msgstr ""
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr ""
 
+msgid "If muted, hide mute icon or mute information after few seconds."
+msgstr ""
+
 msgid "If set to 'no', can you save older events even after zapping or interruption of the timeshift."
 msgstr ""
 
@@ -6028,7 +6103,16 @@ msgstr ""
 msgid "If set to 'yes; the infobar will remain shown permanently in 'paused' state (no timeout)."
 msgstr ""
 
+msgid "If the 'deep standby workaround' is enabled, it waits until the system time is syncronised before the TV is turned on. This way, switching on can be prevented if a timer follows. Syncronization takes a maximum of 2 minutes."
+msgstr ""
+
 msgid "If the free space is less than setting value, then an attempt is made to delete the old timeshift files."
+msgstr ""
+
+msgid "If the power state is reached, the repeated messages are stopped."
+msgstr ""
+
+msgid "If the receiver in standby, then switch to deep standby?"
 msgstr ""
 
 msgid "If the text is too long to be displayed on the front panel, it will be repeated (number of times):"
@@ -6115,7 +6199,7 @@ msgstr ""
 msgid "In progress"
 msgstr ""
 
-msgid "In the Standby blinking Clock on the LCD Display"
+msgid "In the Standby Record on the LCD Display"
 msgstr ""
 
 msgid "Inactive"
@@ -6164,6 +6248,9 @@ msgid "Index"
 msgstr ""
 
 msgid "Index allocated:"
+msgstr ""
+
+msgid "Index Error in the following files: %s"
 msgstr ""
 
 msgid "Indonesian"
@@ -6242,6 +6329,9 @@ msgid "init module"
 msgstr ""
 
 msgid "init modules"
+msgstr ""
+
+msgid "Init SDCARD"
 msgstr ""
 
 msgid "Init.d"
@@ -6430,6 +6520,9 @@ msgstr ""
 msgid "Invert"
 msgstr ""
 
+msgid "Inverts the button function."
+msgstr ""
+
 msgid "IP address"
 msgstr ""
 
@@ -6523,7 +6616,13 @@ msgstr ""
 msgid "Jump to next marked position"
 msgstr ""
 
+msgid "jump to next page or all up (setup in menu)"
+msgstr ""
+
 msgid "Jump to previous marked position"
+msgstr ""
+
+msgid "jump to previous page or all down (setup in menu)"
 msgstr ""
 
 msgid "Jump to prime time"
@@ -6849,6 +6948,9 @@ msgstr ""
 msgid "Lock ratio"
 msgstr ""
 
+msgid "Lock time"
+msgstr ""
+
 msgid "Lock:"
 msgstr ""
 
@@ -6876,7 +6978,7 @@ msgstr ""
 msgid "Logs settings"
 msgstr ""
 
-msgid "Log python stack trace on spinner (may have side effects) ?"
+msgid "Log python stack trace on spinner ?"
 msgstr ""
 
 msgid "long"
@@ -7012,6 +7114,9 @@ msgid "Mark service as dedicated 3D service"
 msgstr ""
 
 msgid "Mark/Portal/Playlist"
+msgstr ""
+
+msgid "Mark/Portal/Playlist long"
 msgstr ""
 
 msgid "markername"
@@ -7612,6 +7717,9 @@ msgid "Next"
 msgstr ""
 
 msgid "Next boot will start from Image 1."
+msgstr ""
+
+msgid "next channel page"
 msgstr ""
 
 msgid "next higher Resolution"
@@ -8526,6 +8634,9 @@ msgstr ""
 msgid "picshow"
 msgstr ""
 
+msgid "Picture in EPG"
+msgstr ""
+
 msgid "Picture in graphics"
 msgstr ""
 
@@ -9229,6 +9340,15 @@ msgstr ""
 msgid "Previous"
 msgstr ""
 
+msgid "previous/next Page"
+msgstr ""
+
+msgid "previous channel page"
+msgstr ""
+
+msgid "previous page"
+msgstr ""
+
 msgid "Prevsong"
 msgstr ""
 
@@ -9389,6 +9509,9 @@ msgid "Providers: "
 msgstr ""
 
 msgid "purge deleted userbouquets"
+msgstr ""
+
+msgid "Put from standby to deep standby"
 msgstr ""
 
 msgid "Put TV in standby"
@@ -9577,10 +9700,19 @@ msgstr ""
 msgid "Rec"
 msgstr ""
 
+msgid "REC "
+msgstr ""
+
 msgid "Rec long"
 msgstr ""
 
 msgid "REC Symbol"
+msgstr ""
+
+msgid "REC Symbol in Standby"
+msgstr ""
+
+msgid "REC Symbol in use"
 msgstr ""
 
 msgid "Reception lists"
@@ -9796,6 +9928,9 @@ msgid "remove after this position"
 msgstr ""
 
 msgid "remove all alternatives"
+msgstr ""
+
+msgid "Remove all cuts and marks"
 msgstr ""
 
 msgid "remove all new found flags"
@@ -10162,6 +10297,9 @@ msgid "Rotor step position:"
 msgstr ""
 
 msgid "Rotor turning speed"
+msgstr ""
+
+msgid "Routing request"
 msgstr ""
 
 msgid "Run"
@@ -10772,25 +10910,13 @@ msgstr ""
 msgid "Selected Image:\t\t%s"
 msgstr ""
 
-msgid ""
-"Selected settingslist: %s\n"
-"\n"
-"Do you want to delete this settinglist?"
+msgid "Selected settingslist: %s\n\nDo you want to delete this settinglist?"
 msgstr ""
 
-msgid ""
-"Selected settingslist: %s\n"
-"\n"
-"Do you want to restore this settinglist?"
+msgid "Selected settingslist: %s\n\nDo you want to restore this settinglist?"
 msgstr ""
 
-msgid ""
-"Selected settingslist:\n"
-"\n"
-"Setting: %s\n"
-"Date: %s\n"
-"\n"
-"Do you want to install this settinglist?"
+msgid "Selected settingslist:\n\nSetting: %s\nDate: %s\n\nDo you want to install this settinglist?"
 msgstr ""
 
 msgid "Selecting satellites 1 (USALS)"
@@ -10812,6 +10938,9 @@ msgid "Send DiSEqC"
 msgstr ""
 
 msgid "Send DiSEqC only on satellite change"
+msgstr ""
+
+msgid "Send repeated standby and wakeup messages"
 msgstr ""
 
 msgid "Send yourself a copy ?"
@@ -10895,6 +11024,12 @@ msgstr ""
 msgid "Service number font size"
 msgstr ""
 
+msgid "Service Number and Service Name"
+msgstr ""
+
+msgid "Service Number, Picon and Service Name"
+msgstr ""
+
 msgid "Service picons downsize"
 msgstr ""
 
@@ -10944,6 +11079,9 @@ msgid "Set action for 'Info' key"
 msgstr ""
 
 msgid "set as startup service"
+msgstr ""
+
+msgid "Set Basetime"
 msgstr ""
 
 msgid "Set CI assignment for detection of available services."
@@ -11081,7 +11219,7 @@ msgstr ""
 msgid "Sets the root folder of movie list, to remove the '..' from benign shown in that folder."
 msgstr ""
 
-msgid "Set to yes ONLY TEMPORARILY for debugging the root cause of a spinner."
+msgid "Set to yes for debugging the root cause of a spinner."
 msgstr ""
 
 msgid "Setting Restored "
@@ -11378,9 +11516,6 @@ msgstr ""
 msgid "Show background when tuned to a radio channel."
 msgstr ""
 
-msgid "Show blinking Clock in Standby on Display during recording"
-msgstr ""
-
 msgid "Show blinking Clock on Display during recording"
 msgstr ""
 
@@ -11480,6 +11615,9 @@ msgstr ""
 msgid "Show detailed event info"
 msgstr ""
 
+msgid "Show detailed event info (setup in menu)"
+msgstr ""
+
 msgid "Show Display Icons"
 msgstr ""
 
@@ -11570,6 +11708,9 @@ msgstr ""
 msgid "Show in extensions list ?"
 msgstr ""
 
+msgid "Show in Standby"
+msgstr ""
+
 msgid "Show info"
 msgstr ""
 
@@ -11610,6 +11751,12 @@ msgid "Show Log"
 msgstr ""
 
 msgid "Show Log Manager in extensions list ?"
+msgstr ""
+
+msgid "Show marked events"
+msgstr ""
+
+msgid "Show marked events in all rows."
 msgstr ""
 
 msgid "Show Media playback Remaining/Elapsed as"
@@ -11670,6 +11817,12 @@ msgid "Show OScam in extensions ?"
 msgstr ""
 
 msgid "Show OscamInfo in Extensions Menu"
+msgstr ""
+
+msgid "Show parting lines"
+msgstr ""
+
+msgid "Show parting lines between events."
 msgstr ""
 
 msgid "Show picon background colour"
@@ -11751,6 +11904,9 @@ msgid "Show Single EPG"
 msgstr ""
 
 msgid "Show single epg for current channel"
+msgstr ""
+
+msgid "Show single epg for current channel (setup in menu)"
 msgstr ""
 
 msgid "Show single service EPG"
@@ -11850,6 +12006,12 @@ msgid "Show unknown Videoresolution as next higher or as highest screen resoluti
 msgstr ""
 
 msgid "Show VCR scart on main menu"
+msgstr ""
+
+msgid "Show Vertical EPG"
+msgstr ""
+
+msgid "Show vertical Program Guide"
 msgstr ""
 
 msgid "Show warning before restart"
@@ -12372,6 +12534,15 @@ msgid "Standby without TV shutdown"
 msgstr ""
 
 msgid "Start"
+msgstr ""
+
+msgid "Start a 'wakeup' power timer"
+msgstr ""
+
+msgid "Start a 'zap and record' recording timer"
+msgstr ""
+
+msgid "Start a 'zap' recording timer"
 msgstr ""
 
 msgid "Start attempts"
@@ -13288,6 +13459,9 @@ msgstr ""
 msgid "This option allows you choose how to display the remaining/elapsed time for media playback."
 msgstr ""
 
+msgid "This option allows you choose how to display the Time or nothing in Standby"
+msgstr ""
+
 msgid "This option allows you choose the background colour of transparent picons."
 msgstr ""
 
@@ -13522,6 +13696,9 @@ msgstr ""
 msgid "Time between start attempts (sec.)"
 msgstr ""
 
+msgid "Time delay to handle the TV event"
+msgstr ""
+
 msgid "Time for next LCD scrolling"
 msgstr ""
 
@@ -13538,6 +13715,9 @@ msgid "Time jump repeat interval for fast forward/backward"
 msgstr ""
 
 msgid "Time jump: Use normal fast forward for speeds"
+msgstr ""
+
+msgid "Time long"
 msgstr ""
 
 msgid "Time range:"
@@ -13811,6 +13991,9 @@ msgstr ""
 msgid "Traditional Chinese"
 msgstr ""
 
+msgid "Trafic light state is '%s' - please use a another image."
+msgstr ""
+
 msgid "Transcode"
 msgstr ""
 
@@ -13875,6 +14058,12 @@ msgid "Try to find used Transponders in terrestrial network.. please wait..."
 msgstr ""
 
 msgid "Try to find used transponders in terrestrial network.. please wait..."
+msgstr ""
+
+msgid "Try to send more messages if not all commands are executed.\n"
+msgstr ""
+
+msgid "Try to slow down the send interval if not all commands are executed.\n"
 msgstr ""
 
 msgid "Trying to download a new packetlist. Please wait..."
@@ -14003,7 +14192,16 @@ msgstr ""
 msgid "TV button mode"
 msgstr ""
 
+msgid "TV has another input active"
+msgstr ""
+
 msgid "TV physical address report"
+msgstr ""
+
+msgid "TV was already on powered"
+msgstr ""
+
+msgid "TV was not in standby mode at startup"
 msgstr ""
 
 msgid "Two"
@@ -14118,6 +14316,9 @@ msgid "Up"
 msgstr ""
 
 msgid "Up/Down button mode"
+msgstr ""
+
+msgid "Up/Down buttons also for 'all up/down'?"
 msgstr ""
 
 msgid "UP80  (keymap.u80)"
@@ -14515,7 +14716,13 @@ msgstr ""
 msgid "Vertical"
 msgstr ""
 
+msgid "Vertical EPG"
+msgstr ""
+
 msgid "Vertical turning speed"
+msgstr ""
+
+msgid "VerticalEPG settings"
 msgstr ""
 
 msgid "Very short filenames"
@@ -14744,6 +14951,9 @@ msgid "W"
 msgstr ""
 
 msgid "wait for mmi..."
+msgstr ""
+
+msgid "Wait for timesync at startup"
 msgstr ""
 
 msgid "Wait please while creating swapfile..."

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-05 14:38+0000\n"
-"PO-Revision-Date: 2017-11-24 19:53+0100\n"
+"PO-Revision-Date: 2018-09-06 22:16+0200\n"
 "Last-Translator: mike99 <mike99@mail.to>\n"
 "Language-Team: openATV\n"
 "Language: de\n"
@@ -13,8 +13,77 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Routing request"
+msgstr "Routinganfrage"
+
+msgid "TV physical address report"
+msgstr "TV Addressbericht"
+
+msgid "Put from standby to deep standby"
+msgstr "Schalte vom Standby in den Deep Standby-Modus"
+
+msgid "If the receiver in standby, then switch to deep standby?"
+msgstr "Wenn der Receiver im Standby-Modus ist, in den Deep-Standby-Modus wechseln?"
+
+msgid "Wait for timesync at startup"
+msgstr "Warte beim Systemstart auf Zeitsyncronisation"
+
+msgid "If the 'deep standby workaround' is enabled, it waits until the system time is syncronised before the TV is turned on. This way, switching on can be prevented if a timer follows. Syncronization takes a maximum of 2 minutes."
+msgstr "Wenn der 'Deep Standby Workaround' aktiviert ist, wird gewartet bis die Systemzeit syncronisiert wurde bevor der TV angeschaltet. So kann ein Einschalten verhindert werden wenn ein Timer folgt. Die Syncronisierung dauert maximal 2 Minuten."
+
+msgid "TV was not in standby mode at startup"
+msgstr "TV war beim start nicht im Standby"
+
+msgid "TV was already on powered"
+msgstr "TV war bereits eingeschaltet"
+
+msgid "TV has another input active"
+msgstr "TV hat einen anderen Eingang aktiv"
+
+msgid "Start a 'zap' recording timer"
+msgstr "Beim start eines 'Umschalten' Timers"
+
+msgid "Start a 'zap and record' recording timer"
+msgstr "Beim start eines 'Umschalten und Aufnehmen' Timers"
+
+msgid "Start a 'wakeup' power timer"
+msgstr "Beim start eines 'Aufwecken' Power-Timers"
+
+msgid "Try to send more messages if not all commands are executed.\n"
+msgstr "Versuchen Sie mehrere Mitteilungen zu senden wenn nicht alle Kommandos ausgeführt werden.\n"
+
+msgid "(e.g. TV wakeup, but not switched to correct input)"
+msgstr "(z.Bsp. TV aufwecken, aber es wird nicht auf den korrekten Eingang geschaltet)"
+
+msgid "If the power state is reached, the repeated messages are stopped."
+msgstr "Ist der erwartete Betriebszustand erreicht, wird die Wiederholung der Mitteilungen gestoppt."
+
+msgid "Send repeated standby and wakeup messages"
+msgstr "Sende wiederholende Aufwach- und Standby Mitteilungen"
+
+msgid "Check power state from TV"
+msgstr "Überprüfe den Betriebszustand vom TV"
+
+msgid "Handle input from TV"
+msgstr "TV-Eingänge verwalten"
+
+msgid "Try to slow down the send interval if not all commands are executed.\n"
+msgstr "Versuchen Sie das Sendeintervall zu verlangsamen wenn nicht alle Kommandos ausgeführt werden.\n"
+
+msgid "Time delay to handle the TV event"
+msgstr "Zeitverzögerung für die Ausführung des TV-Ereignisses"
+
+msgid "'Handle standby from TV' has a higher priority as 'Handle input from TV'"
+msgstr "'TV-Standby verwalten' hat eine höhere Priorität als 'TV-Eingänge verwalten'"
+
+msgid "%d sec"
+msgstr "%d sek"
+
+msgid "%d times"
+msgstr "%d mal"
 
 msgid "Stop recording now"
 msgstr "Aufnahme stoppen"
@@ -243,8 +312,12 @@ msgid "%a %e/%m  %-H:%M"
 msgstr "%a %e/%m  %-H:%M"
 
 # EventView.py#L324
-msgid "\n%Y/%m/%d  %H:%M - "
-msgstr "\n%d.%m.%Y  %H:%M - "
+msgid ""
+"\n"
+"%Y/%m/%d  %H:%M - "
+msgstr ""
+"\n"
+"%d.%m.%Y  %H:%M - "
 
 # EpgList.py#L686
 msgid "%e/%m, %-H:%M"
@@ -1163,6 +1236,10 @@ msgstr "Info-Panel"
 #: ButtonSetup.py
 msgid "Audio"
 msgstr "Ton"
+
+#: python/Screens/ButtonSetup.py
+msgid "Show vertical Program Guide"
+msgstr "Vertikales EPG anzeigen"
 
 msgid "Audio PID"
 msgstr "Audio-PID"
@@ -6398,7 +6475,7 @@ msgid "When enabled, the receiver will automatically use the subtitles which you
 msgstr "Wenn auf 'Ja' gestellt, wird die %s %s die Untertitel benutzen, die zuvor ausgewählt wurden."
 
 msgid "Prefer subtitles stored by service"
-msgstr "Standard-Untertitel des Programms bevorzugen"
+msgstr "Eingestellte Untertitel des Programms speichern"
 
 msgid "Preferred tuner"
 msgstr "Bevorzugter Tuner"
@@ -8849,6 +8926,9 @@ msgstr "Der Status des derzeitigen Beta-Image konnte nicht überprüft werden da
 msgid "The timer file (timers.xml) is corrupt and could not be loaded."
 msgstr "Die Timer-Datei (timers.xml) ist beschädigt und konnte nicht geladen werden."
 
+msgid "The timer file (pm_timers.xml) is corrupt and could not be loaded."
+msgstr "Die Timer-Datei (pm_timers.xml) ist beschädigt und konnte nicht geladen werden."
+
 #
 msgid ""
 "The wireless LAN plugin is not installed!\n"
@@ -10762,14 +10842,6 @@ msgstr "Standard 'Nach der Aufnahme' *"
 #: data/setup.xml
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "Legt die Standardeinstellung für neu angelegte Timer fest. Benötigt nach der Änderung einen Neustart."
-
-#: data/setup.xml
-msgid "Turn on the TV from standby with 'zap and record' timer"
-msgstr "TV einschalten durch einen 'Umschalten und Aufnehmen' Timer"
-
-#: data/setup.xml
-msgid "If you have activated HDMI-CEC, you can specify here whether a 'zap and record' timer also turns on the TV."
-msgstr "Wenn Sie HDMI-CEC aktiviert haben, können Sie hier angeben ob ein 'Umschalten und Aufnehmen' Timer auch den Fernseher mit einschaltet."
 
 #: data/setup.xml
 msgid "Long press emulation with button"
@@ -13278,12 +13350,12 @@ msgid "if set to 'no', only an debug message is written to the Debug log "
 msgstr "Wenn die Option auf 'Nein' gesetzt wird, dann gibt es bei Fehlern im Skin nur einen Debug-Log-Eintrag."
 
 # data/setup.xml
-msgid "Log python stack trace on spinner (may have side effects) ?"
-msgstr "Bei Spinner Python Stack Trace loggen (kann Nebeneffekte haben) ?"
+msgid "Log python stack trace on spinner ?"
+msgstr "Bei Spinner Python Stack Trace loggen ?"
 
 # data/setup.xml
-msgid "Set to yes ONLY TEMPORARILY for debugging the root cause of a spinner."
-msgstr "Nur ZEITWEISE auf 'ja' setzen, um die Ursache eines Spinners zu debuggen."
+msgid "Set to yes for debugging the root cause of a spinner."
+msgstr "Auf 'ja' setzen, um die Ursache eines Spinners zu debuggen."
 
 msgid "Space used:"
 msgstr "Speicherplatznutzung:"
@@ -13906,7 +13978,7 @@ msgstr "Manueller Suchlauf"
 
 #: /QuickMenu.py
 msgid "Sat Finder"
-msgstr "Sat-Finder"
+msgstr "Signal-Finder"
 
 #: /QuickMenu.py
 msgid "Search Sats"
@@ -14026,6 +14098,10 @@ msgstr "Bitte warten, Feed-Status wird überprüft"
 #: Download Netzwerk Dienste
 msgid "Sorry feeds are down for maintenance, please try again later. If this issue persists please check www.opena.tv"
 msgstr "Feeds sind wegen Wartungsarbeiten im Moment nicht verfügbar, bitte versuchen Sie es später. Für weitere Fragen besuchen Sie bitte www.opena.tv"
+
+#: PluginBrowser.py
+msgid "Sorry feeds are down for maintenance"
+msgstr "Feeds sind wegen Wartungsarbeiten im Moment nicht verfügbar"
 
 #: Download Netzwerk Dienste
 msgid "Your %s %s is not connected to the internet, please check your network settings and try again."
@@ -14995,6 +15071,14 @@ msgstr "Grafisch"
 msgid "Picon and Service Name"
 msgstr "Picon und Sendername"
 
+#
+msgid "Service Number and Service Name"
+msgstr "Kanalnummer und Sendername"
+
+#
+msgid "Service Number, Picon and Service Name"
+msgstr "Kanalnummer, Picon und Sendername"
+
 # Quick Menue
 msgid "Network Browser"
 msgstr "Netzwerk-Browser"
@@ -15182,6 +15266,19 @@ msgstr "Zeit bis zum nächsten Scrollen des LCDs"
 msgid "Show blinking rec symbol on Display during recording"
 msgstr "Blinkendes REC-Symbol im Display bei Aufnahmen"
 
+#: setup.xml
+msgid "Show in Standby"
+msgstr "Im Standby anzeigen"
+
+#: setup.xml
+msgid "This option allows you choose how to display the Time or nothing in Standby"
+msgstr "Mit dieser Option können Sie auswählen, ob die Uhrzeit oder nichts im Standby angezeigt werden sollen."
+
+#: setup.xml
+msgid "REC Symbol in use"
+msgstr "REC Symbol in Betrieb"
+
+#: setup.xml
 msgid "Enable blinking rec symbol on the LCD Display"
 msgstr "Hier können Sie das blinkende Record-Symbol in dem Display aktivieren."
 
@@ -15942,6 +16039,9 @@ msgstr "Info-Icon anzeigen Breite"
 msgid "Do you want to backup your settings now?"
 msgstr "Wollen Sie Ihre Einstellungen sichern?"
 
+msgid "Traffic light state is '%s' - please use a another image."
+msgstr "Der Ampelstatus ist '%s' - bitte nutzen sie ein anderes Image."
+
 #: Flash_online.py
 msgid ""
 "Please select what to do after flashing the image:\n"
@@ -16407,6 +16507,10 @@ msgid "Mark/Portal/Playlist"
 msgstr "Mark/Portal/Playlist"
 
 #: ButtonSetup.py
+msgid "Mark/Portal/Playlist long"
+msgstr "Mark/Portal/Playlist lang"
+
+#: ButtonSetup.py
 msgid "Sleep"
 msgstr "Sleeptimer"
 
@@ -16502,7 +16606,7 @@ msgstr "Konfiguriere, ob bei Aufnahmen ein weiterer bevorzugter Tuner belegt wir
 
 #: ButtonSetup.py
 msgid "Show graphical multi EPG"
-msgstr "Grafischen Multi-EPG anzeigen"
+msgstr "Grafisches Multi-EPG anzeigen"
 
 #: ButtonSetup.py
 msgid "Show eventinfo plugins"
@@ -17951,6 +18055,15 @@ msgstr "Begrüßungsbildschirm aktivieren"
 msgid "Disable intro screen"
 msgstr "Begrüßungsbildschirm abschalten"
 
+#: CutListEditor/plugin.py
+msgid "Remove all cuts and marks"
+msgstr "Alle Markierungen und Schnitte entfernen"
+
+#: CutListEditor/plugin.py
+msgid "Are you sure to delete all cuts and marks?"
+msgstr "Wollen Sie alle Markierungen und Schnitte entfernen?"
+
+#
 msgid "Add bouquet services"
 msgstr "Fav-Sender +"
 
@@ -18494,6 +18607,12 @@ msgstr "Konfigurieren Sie die generelle Schrittweite für die Lautstärke (von 1
 
 msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
 msgstr "Konfigurieren Sie die Schrittweite für die Lautstärke im Schnellmodus (von 1-10). Wird aktiviert, wenn die Lautstärketaste permanent oder schnell hintereinander gedrückt wird."
+
+msgid "Hide mute notification"
+msgstr "Ausblenden der Stummschaltungsanzeige"
+
+msgid "If muted, hide mute icon or mute information after few seconds."
+msgstr "Legt fest ob das Anzeigesymbol oder die Information der Stummschaltung nach wenigen Sekunden ausgeblendet wird."
 
 msgid "Delivery system workaround"
 msgstr "Tuner System Spezial Funktion"
@@ -19548,8 +19667,14 @@ msgstr "Erlaube nicht unterstützte Modi"
 msgid "This option allows you to use all HDMI Modes"
 msgstr "Mit dieser Option können Sie alle HDMI-Modi verwenden"
 
-msgid "Use automatic mode detection.\n This option reads all supported modes from your TV.\n Please disable it only if you want to customize the preferred configuration."
-msgstr "Verwenden Sie die Automatische Modus Erkennung.\nDie Option liest alle unterstützten Modi von Ihrem TV Gerät.\nBitte deaktivieren Sie es nur, wenn Sie die bevorzugte Konfiguration anpassen möchten."
+msgid ""
+"Use automatic mode detection.\n"
+" This option reads all supported modes from your TV.\n"
+" Please disable it only if you want to customize the preferred configuration."
+msgstr ""
+"Verwenden Sie die Automatische Modus Erkennung.\n"
+"Die Option liest alle unterstützten Modi von Ihrem TV Gerät.\n"
+"Bitte deaktivieren Sie es nur, wenn Sie die bevorzugte Konfiguration anpassen möchten."
 
 msgid "Default Modes Selected."
 msgstr "Standardmodi ausgewählt."
@@ -19586,3 +19711,131 @@ msgstr "erzwinge aktiviert"
 
 msgid "force disabled"
 msgstr "erzwinge deaktiviert"
+
+#: lib/python/Components/UsageConfig
+msgid "Show Vertical EPG"
+msgstr "Zeige vertikales EPG"
+
+#: lib/python/Screens/InfoBarGenerics
+msgid "Vertical EPG"
+msgstr "Vertikales EPG"
+
+#: data/setup.xml
+msgid "VerticalEPG settings"
+msgstr "Vertikales EPG"
+
+#: data/setup.xml
+msgid "Picture in EPG"
+msgstr "Mini-TV im vertikalen EPG anzeigen"
+
+#: data/setup.xml
+msgid "Show parting lines"
+msgstr "Trennlinien anzeigen"
+
+#: data/setup.xml
+msgid "Show marked events"
+msgstr "Markierte Ereignisse anzeigen"
+
+#: data/setup.xml
+msgid "Channel buttons"
+msgstr "Kanaltasten"
+
+#: data/setup.xml
+msgid "Font size"
+msgstr "Schriftgröße"
+
+#: python\Components\UsageConfig.py
+msgid "-24h/+24 Hours"
+msgstr "-24h/+24 Stunden"
+
+#: python\Screens\EpgSelection
+msgid "Goto Primetime"
+msgstr "Gehe zur Primetime"
+
+#: python\Screens\EpgSelection
+msgid "Set Basetime"
+msgstr "Setze Basiszeit"
+
+#: python\Screens\EpgSelection
+msgid "goto first channel"
+msgstr "Gehe zum ersten Kanal"
+
+#: python\Screens\EpgSelection
+msgid "next channel page"
+msgstr "Nächste Kanalseite"
+
+#: python\Screens\EpgSelection
+msgid "goto last channel"
+msgstr "Gehe zum letzten Kanal"
+
+#: python\Screens\EpgSelection
+msgid "previous channel page"
+msgstr "Vorherige Kanalseite"
+
+#: python\Screens\EpgSelection
+msgid "goto current channel and now"
+msgstr "Gehe zum aktuellen Kanal"
+
+#: data/setup.xml
+msgid "Show parting lines between events."
+msgstr "Zeige Trennlinien zwischen den Ereignissen."
+
+#: data/setup.xml
+msgid "Show marked events in all rows."
+msgstr "Markierte Ereignisse in allen Zeilen anzeigen."
+
+#: python/Components/UsageConfig.py
+msgid "previous/next Page"
+msgstr "vorherige/nächste Seite"
+
+#: data/setup.xml
+msgid "Configure the font size relative to default size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
+msgstr "Konfigurieren Sie die Schriftgröße relativ zur Standardgröße, so das 1 um 1 Punktgröße und -1 um 1 Punktgröße zunimmt."
+
+#: data/setup.xml
+msgid "Channel buttons invert"
+msgstr "Kanaltasten invertieren"
+
+#: data/setup.xml
+msgid "Inverts the button function."
+msgstr "Invertiert die Tastenfunktion."
+
+#: python\Components\UsageConfig.py
+msgid "all up/down"
+msgstr "alle hoch/runter"
+
+#: data/setup.xml
+msgid "Up/Down buttons also for 'all up/down'?"
+msgstr "Up/Down-Tasten für \"alle hoch/runter\"?"
+
+#: data/setup.xml
+msgid "Enable Up / Down buttons for the 'all up / down' function? (at the beginning / end of the column)"
+msgstr "Aktivieren Sie die Up/Down-Tasten für die Funktion \"Alle hoch/runter\"? (am Anfang/Ende der Spalte)."
+
+#: python\Screens\EpgSelection
+msgid "all events down"
+msgstr "Alle Ereignisse runter"
+
+#: python\Screens\EpgSelection
+msgid "all events up"
+msgstr "Alle Ereignisse rauf"
+
+#: python\Screens\EpgSelection
+msgid "goto now"
+msgstr "Gehe zur aktuellen Uhrzeit"
+
+#: python\Screens\EpgSelection
+msgid "Show single epg for current channel (setup in menu)"
+msgstr "Zeige Einzel-EPG für den aktuellen Kanal (Einstellung im Menü)"
+
+#: python\Screens\EpgSelection
+msgid "jump to next page or all up (setup in menu)"
+msgstr "Zur nächsten Seite springen oder alle rauf (Einstellung im Menü)"
+
+#: python\Screens\EpgSelection
+msgid "jump to previous page or all down (setup in menu)"
+msgstr "Zur vorherigen Seite springen oder alle runter (Einstellung im Menü)"
+
+#: python\Screens\EpgSelection
+msgid "Show detailed event info (setup in menu)"
+msgstr "Zeige detaillierte Ereignisinformationen (Einstellung im Menü)"
